@@ -1,6 +1,6 @@
 <snippet>
-  <content><![CDATA[console.time('${1:object}')]]></content>
-  <tabTrigger>ctm</tabTrigger>
-  <scope>source.js</scope>
-  <description>Console time wrapper</description>
+<content><![CDATA[console.time('${1:object}')]]></content>
+<tabTrigger>ctm</tabTrigger>
+<scope>source.js</scope>
+<description>Console time wrapper</description>
 </snippet>

@@ -1,6 +1,6 @@
 <snippet>
-  <content><![CDATA[PropTypes.element.isRequired,]]></content>
-  <tabTrigger>ptelr</tabTrigger>
-  <scope>source.js</scope>
-  <description>React element prop type required</description>
+<content><![CDATA[PropTypes.element.isRequired,]]></content>
+<tabTrigger>ptelr</tabTrigger>
+<scope>source.js</scope>
+<description>React element prop type required</description>
 </snippet>

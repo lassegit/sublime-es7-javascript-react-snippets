@@ -1,6 +1,6 @@
 <snippet>
-  <content><![CDATA[PropTypes.func,]]></content>
-  <tabTrigger>ptf</tabTrigger>
-  <scope>source.js</scope>
-  <description>Func prop type</description>
+<content><![CDATA[PropTypes.func,]]></content>
+<tabTrigger>ptf</tabTrigger>
+<scope>source.js</scope>
+<description>Func prop type</description>
 </snippet>

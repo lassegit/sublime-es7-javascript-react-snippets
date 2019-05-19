@@ -1,9 +1,9 @@
 <snippet>
-  <content><![CDATA[${1:array}.forEach(${2:currentItem} => { 
+<content><![CDATA[${1:array}.forEach(${2:currentItem} => { 
    ${0} 
  }) 
  ]]></content>
-  <tabTrigger>fre</tabTrigger>
-  <scope>source.js</scope>
-  <description>Creates a forEach statement in ES7 syntax</description>
+<tabTrigger>fre</tabTrigger>
+<scope>source.js</scope>
+<description>Creates a forEach statement in ES7 syntax</description>
 </snippet>

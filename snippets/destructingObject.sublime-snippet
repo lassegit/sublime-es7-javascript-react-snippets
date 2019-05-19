@@ -1,6 +1,6 @@
 <snippet>
-  <content><![CDATA[const {${1:propertyName}} = ${2:objectToDestruct}]]></content>
-  <tabTrigger>dob</tabTrigger>
-  <scope>source.js</scope>
-  <description>Creates and assigns a local variable using object destructing</description>
+<content><![CDATA[const {${1:propertyName}} = ${2:objectToDestruct}]]></content>
+<tabTrigger>dob</tabTrigger>
+<scope>source.js</scope>
+<description>Creates and assigns a local variable using object destructing</description>
 </snippet>

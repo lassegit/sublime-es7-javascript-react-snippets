@@ -1,10 +1,10 @@
 <snippet>
-  <content><![CDATA[export const ${1:actionName} = (payload) => ({ 
+<content><![CDATA[export const ${1:actionName} = (payload) => ({ 
    type: ${3:type}, 
    payload 
  }) 
  ]]></content>
-  <tabTrigger>rxaction</tabTrigger>
-  <scope>source.js</scope>
-  <description></description>
+<tabTrigger>rxaction</tabTrigger>
+<scope>source.js</scope>
+<description></description>
 </snippet>

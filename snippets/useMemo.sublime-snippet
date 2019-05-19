@@ -1,6 +1,6 @@
 <snippet>
-  <content><![CDATA[useMemo(() => ${1:function}, ${2:input})]]></content>
-  <tabTrigger>useMemo</tabTrigger>
-  <scope>source.js</scope>
-  <description></description>
+<content><![CDATA[useMemo(() => ${1:function}, ${2:input})]]></content>
+<tabTrigger>useMemo</tabTrigger>
+<scope>source.js</scope>
+<description></description>
 </snippet>

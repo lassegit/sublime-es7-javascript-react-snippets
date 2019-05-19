@@ -1,5 +1,5 @@
 <snippet>
-  <content><![CDATA[import 'react-native' 
+<content><![CDATA[import 'react-native' 
  import React from 'react' 
  import renderer from 'react-test-renderer' 
  import { Provider } from 'react-redux' 
@@ -20,7 +20,7 @@
    }) 
  }) 
  ]]></content>
-  <tabTrigger>snrtest</tabTrigger>
-  <scope>source.js</scope>
-  <description></description>
+<tabTrigger>snrtest</tabTrigger>
+<scope>source.js</scope>
+<description></description>
 </snippet>

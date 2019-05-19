@@ -1,9 +1,9 @@
 <snippet>
-  <content><![CDATA[(${1:params}) => { 
+<content><![CDATA[(${1:params}) => { 
    ${2} 
  } 
  ]]></content>
-  <tabTrigger>anfn</tabTrigger>
-  <scope>source.js</scope>
-  <description>Creates an anonymous function in ES7 syntax</description>
+<tabTrigger>anfn</tabTrigger>
+<scope>source.js</scope>
+<description>Creates an anonymous function in ES7 syntax</description>
 </snippet>

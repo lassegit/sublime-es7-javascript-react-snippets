@@ -1,5 +1,5 @@
 <snippet>
-  <content><![CDATA[import React from 'react' 
+<content><![CDATA[import React from 'react' 
   
  export default function ${1:${TM_FILENAME_BASE}}() { 
    return ( 
@@ -9,7 +9,7 @@
    ) 
  } 
  ]]></content>
-  <tabTrigger>rfc</tabTrigger>
-  <scope>source.js</scope>
-  <description>Creates a React Functional Component with ES7 module system</description>
+<tabTrigger>rfc</tabTrigger>
+<scope>source.js</scope>
+<description>Creates a React Functional Component with ES7 module system</description>
 </snippet>

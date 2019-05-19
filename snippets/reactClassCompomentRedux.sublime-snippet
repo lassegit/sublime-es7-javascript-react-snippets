@@ -1,5 +1,5 @@
 <snippet>
-  <content><![CDATA[import React, { Component } from 'react' 
+<content><![CDATA[import React, { Component } from 'react' 
  import PropTypes from 'prop-types' 
  import { connect } from 'react-redux' 
   
@@ -27,7 +27,7 @@
   
  export default connect(mapStateToProps, mapDispatchToProps)(${1:${TM_FILENAME_BASE}}) 
  ]]></content>
-  <tabTrigger>rcredux</tabTrigger>
-  <scope>source.js</scope>
-  <description>Creates a React component class with PropTypes with connected redux and ES7 module system</description>
+<tabTrigger>rcredux</tabTrigger>
+<scope>source.js</scope>
+<description>Creates a React component class with PropTypes with connected redux and ES7 module system</description>
 </snippet>

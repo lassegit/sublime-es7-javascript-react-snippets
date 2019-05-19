@@ -1,6 +1,6 @@
 <snippet>
-  <content><![CDATA[PropTypes.array.isRequired,]]></content>
-  <tabTrigger>ptar</tabTrigger>
-  <scope>source.js</scope>
-  <description>Array prop type required</description>
+<content><![CDATA[PropTypes.array.isRequired,]]></content>
+<tabTrigger>ptar</tabTrigger>
+<scope>source.js</scope>
+<description>Array prop type required</description>
 </snippet>

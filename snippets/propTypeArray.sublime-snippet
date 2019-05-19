@@ -1,6 +1,6 @@
 <snippet>
-  <content><![CDATA[PropTypes.array,]]></content>
-  <tabTrigger>pta</tabTrigger>
-  <scope>source.js</scope>
-  <description>Array prop type</description>
+<content><![CDATA[PropTypes.array,]]></content>
+<tabTrigger>pta</tabTrigger>
+<scope>source.js</scope>
+<description>Array prop type</description>
 </snippet>

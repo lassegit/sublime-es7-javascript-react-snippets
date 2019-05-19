@@ -1,5 +1,5 @@
 <snippet>
-  <content><![CDATA[const initialState = { 
+<content><![CDATA[const initialState = { 
   
  } 
   
@@ -14,7 +14,7 @@
    } 
  } 
  ]]></content>
-  <tabTrigger>rxreducer</tabTrigger>
-  <scope>source.js</scope>
-  <description></description>
+<tabTrigger>rxreducer</tabTrigger>
+<scope>source.js</scope>
+<description></description>
 </snippet>

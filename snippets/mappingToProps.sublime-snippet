@@ -1,5 +1,5 @@
 <snippet>
-  <content><![CDATA[const mapStateToProps = (state) => ({ 
+<content><![CDATA[const mapStateToProps = (state) => ({ 
    ${1} 
  }) 
   
@@ -7,7 +7,7 @@
     
  } 
  ]]></content>
-  <tabTrigger>reduxmap</tabTrigger>
-  <scope>source.js</scope>
-  <description></description>
+<tabTrigger>reduxmap</tabTrigger>
+<scope>source.js</scope>
+<description></description>
 </snippet>

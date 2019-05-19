@@ -1,9 +1,9 @@
 <snippet>
-  <content><![CDATA[getSnapshotBeforeUpdate = (prevProps, prevState) => { 
+<content><![CDATA[getSnapshotBeforeUpdate = (prevProps, prevState) => { 
    $0 
  } 
  ]]></content>
-  <tabTrigger>gsbu</tabTrigger>
-  <scope>source.js</scope>
-  <description>Called right before mutations are made (e.g. before the DOM is updated)</description>
+<tabTrigger>gsbu</tabTrigger>
+<scope>source.js</scope>
+<description>Called right before mutations are made (e.g. before the DOM is updated)</description>
 </snippet>

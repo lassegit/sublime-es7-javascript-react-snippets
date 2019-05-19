@@ -1,5 +1,5 @@
 <snippet>
-  <content><![CDATA[import React, { Component } from 'react' 
+<content><![CDATA[import React, { Component } from 'react' 
  import { Text, View } from 'react-native' 
   
  export default class ${1:${TM_FILENAME_BASE}} extends Component { 
@@ -12,7 +12,7 @@
    } 
  } 
  ]]></content>
-  <tabTrigger>rnc</tabTrigger>
-  <scope>source.js</scope>
-  <description></description>
+<tabTrigger>rnc</tabTrigger>
+<scope>source.js</scope>
+<description></description>
 </snippet>

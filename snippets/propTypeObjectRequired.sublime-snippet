@@ -1,6 +1,6 @@
 <snippet>
-  <content><![CDATA[PropTypes.object.isRequired,]]></content>
-  <tabTrigger>ptor</tabTrigger>
-  <scope>source.js</scope>
-  <description>Object prop type required</description>
+<content><![CDATA[PropTypes.object.isRequired,]]></content>
+<tabTrigger>ptor</tabTrigger>
+<scope>source.js</scope>
+<description>Object prop type required</description>
 </snippet>

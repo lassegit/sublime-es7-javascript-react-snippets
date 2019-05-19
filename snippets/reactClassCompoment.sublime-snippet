@@ -1,5 +1,5 @@
 <snippet>
-  <content><![CDATA[import React, { Component } from 'react' 
+<content><![CDATA[import React, { Component } from 'react' 
   
  export default class ${1:${TM_FILENAME_BASE}} extends Component { 
    render() { 
@@ -11,7 +11,7 @@
    } 
  } 
  ]]></content>
-  <tabTrigger>rcc</tabTrigger>
-  <scope>source.js</scope>
-  <description>Creates a React component class with ES7 module system</description>
+<tabTrigger>rcc</tabTrigger>
+<scope>source.js</scope>
+<description>Creates a React component class with ES7 module system</description>
 </snippet>

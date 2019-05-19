@@ -1,5 +1,5 @@
 <snippet>
-  <content><![CDATA[import React from 'react' 
+<content><![CDATA[import React from 'react' 
  import { View, Text } from 'react-native' 
   
  const ${1:${TM_FILENAME_BASE}} = () => { 
@@ -12,7 +12,7 @@
   
  export default ${1:${TM_FILENAME_BASE}} 
  ]]></content>
-  <tabTrigger>rnf</tabTrigger>
-  <scope>source.js</scope>
-  <description></description>
+<tabTrigger>rnf</tabTrigger>
+<scope>source.js</scope>
+<description></description>
 </snippet>

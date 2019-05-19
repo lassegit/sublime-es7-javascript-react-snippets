@@ -1,5 +1,5 @@
 <snippet>
-  <content><![CDATA[import React, { PureComponent } from 'react' 
+<content><![CDATA[import React, { PureComponent } from 'react' 
  import { Text, View } from 'react-native' 
   
  export default class ${1:${TM_FILENAME_BASE}} extends PureComponent { 
@@ -12,7 +12,7 @@
    } 
  } 
  ]]></content>
-  <tabTrigger>rnpc</tabTrigger>
-  <scope>source.js</scope>
-  <description></description>
+<tabTrigger>rnpc</tabTrigger>
+<scope>source.js</scope>
+<description></description>
 </snippet>

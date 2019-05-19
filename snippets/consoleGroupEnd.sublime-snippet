@@ -1,6 +1,6 @@
 <snippet>
-  <content><![CDATA[console.groupEnd()]]></content>
-  <tabTrigger>cge</tabTrigger>
-  <scope>source.js</scope>
-  <description>Closes out the corresponding console.group().</description>
+<content><![CDATA[console.groupEnd()]]></content>
+<tabTrigger>cge</tabTrigger>
+<scope>source.js</scope>
+<description>Closes out the corresponding console.group().</description>
 </snippet>

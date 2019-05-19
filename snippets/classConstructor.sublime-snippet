@@ -1,5 +1,5 @@
 <snippet>
-  <content><![CDATA[constructor(props) { 
+<content><![CDATA[constructor(props) { 
    super(props) 
   
    this.state = { 
@@ -7,7 +7,7 @@
    } 
  } 
  ]]></content>
-  <tabTrigger>rconst</tabTrigger>
-  <scope>source.js</scope>
-  <description>Adds a default constructor for it('', () => {})the class that contains props as arguments</description>
+<tabTrigger>rconst</tabTrigger>
+<scope>source.js</scope>
+<description>Adds a default constructor for it('', () => {})the class that contains props as arguments</description>
 </snippet>

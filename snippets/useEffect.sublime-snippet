@@ -1,10 +1,10 @@
 <snippet>
-  <content><![CDATA[useEffect(() => { 
+<content><![CDATA[useEffect(() => { 
    return () => { 
      ${1:effect} 
    }; 
  }, [${2:input}])]]></content>
-  <tabTrigger>useEffect</tabTrigger>
-  <scope>source.js</scope>
-  <description></description>
+<tabTrigger>useEffect</tabTrigger>
+<scope>source.js</scope>
+<description></description>
 </snippet>

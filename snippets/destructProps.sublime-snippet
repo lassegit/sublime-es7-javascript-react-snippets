@@ -1,6 +1,6 @@
 <snippet>
-  <content><![CDATA[const { $1 } = this.props]]></content>
-  <tabTrigger>cp</tabTrigger>
-  <scope>source.js</scope>
-  <description>Creates and assigns a local variable using props destructing</description>
+<content><![CDATA[const { $1 } = this.props]]></content>
+<tabTrigger>cp</tabTrigger>
+<scope>source.js</scope>
+<description>Creates and assigns a local variable using props destructing</description>
 </snippet>

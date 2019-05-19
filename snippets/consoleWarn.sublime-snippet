@@ -1,6 +1,6 @@
 <snippet>
-  <content><![CDATA[console.warn(${1:object})]]></content>
-  <tabTrigger>cwa</tabTrigger>
-  <scope>source.js</scope>
-  <description>Displays a message in the console but also displays a yellow warning icon along with the logged message</description>
+<content><![CDATA[console.warn(${1:object})]]></content>
+<tabTrigger>cwa</tabTrigger>
+<scope>source.js</scope>
+<description>Displays a message in the console but also displays a yellow warning icon along with the logged message</description>
 </snippet>

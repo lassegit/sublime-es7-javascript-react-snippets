@@ -1,9 +1,9 @@
 <snippet>
-  <content><![CDATA[export const ${1:functionName} = (${2:params}) => { 
+<content><![CDATA[export const ${1:functionName} = (${2:params}) => { 
    $0 
  } 
  ]]></content>
-  <tabTrigger>enf</tabTrigger>
-  <scope>source.js</scope>
-  <description>Export named function in ES7 syntax</description>
+<tabTrigger>enf</tabTrigger>
+<scope>source.js</scope>
+<description>Export named function in ES7 syntax</description>
 </snippet>

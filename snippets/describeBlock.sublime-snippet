@@ -1,9 +1,9 @@
 <snippet>
-  <content><![CDATA[describe('$1', () => { 
+<content><![CDATA[describe('$1', () => { 
    $0 
  }) 
  ]]></content>
-  <tabTrigger>desc</tabTrigger>
-  <scope>source.js</scope>
-  <description>Testing `describe` block</description>
+<tabTrigger>desc</tabTrigger>
+<scope>source.js</scope>
+<description>Testing `describe` block</description>
 </snippet>

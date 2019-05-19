@@ -1,9 +1,9 @@
 <snippet>
-  <content><![CDATA[componentDidUpdate(prevProps, prevState) { 
+<content><![CDATA[componentDidUpdate(prevProps, prevState) { 
    $0 
  } 
  ]]></content>
-  <tabTrigger>cdup</tabTrigger>
-  <scope>source.js</scope>
-  <description>Invoked immediately after the component's updates are flushed to the DOM.</description>
+<tabTrigger>cdup</tabTrigger>
+<scope>source.js</scope>
+<description>Invoked immediately after the component's updates are flushed to the DOM.</description>
 </snippet>

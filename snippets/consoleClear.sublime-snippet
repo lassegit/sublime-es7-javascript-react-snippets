@@ -1,6 +1,6 @@
 <snippet>
-  <content><![CDATA[console.clear()]]></content>
-  <tabTrigger>ccl</tabTrigger>
-  <scope>source.js</scope>
-  <description>Clears the console</description>
+<content><![CDATA[console.clear()]]></content>
+<tabTrigger>ccl</tabTrigger>
+<scope>source.js</scope>
+<description>Clears the console</description>
 </snippet>

@@ -1,12 +1,12 @@
 <snippet>
-  <content><![CDATA[useImperativeHandle( 
+<content><![CDATA[useImperativeHandle( 
    ${1:ref}, 
    () => { 
      ${2:handler} 
    }, 
    [${3:input}], 
  )]]></content>
-  <tabTrigger>useImperativeHandle</tabTrigger>
-  <scope>source.js</scope>
-  <description></description>
+<tabTrigger>useImperativeHandle</tabTrigger>
+<scope>source.js</scope>
+<description></description>
 </snippet>

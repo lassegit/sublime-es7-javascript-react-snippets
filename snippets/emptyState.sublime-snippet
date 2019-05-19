@@ -1,9 +1,9 @@
 <snippet>
-  <content><![CDATA[state = { 
+<content><![CDATA[state = { 
    $1 
  } 
  ]]></content>
-  <tabTrigger>est</tabTrigger>
-  <scope>source.js</scope>
-  <description>Creates empty state object. To be used in a constructor.</description>
+<tabTrigger>est</tabTrigger>
+<scope>source.js</scope>
+<description>Creates empty state object. To be used in a constructor.</description>
 </snippet>

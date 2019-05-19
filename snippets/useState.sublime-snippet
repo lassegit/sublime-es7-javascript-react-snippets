@@ -1,6 +1,6 @@
 <snippet>
-  <content><![CDATA[const [${1:state}, set${1/(.*)/${1:/capitalize}/}] = useState(${2:initialState})]]></content>
-  <tabTrigger>useState</tabTrigger>
-  <scope>source.js</scope>
-  <description></description>
+<content><![CDATA[const [${1:state}, set${1/(.*)/${1:/capitalize}/}] = useState(${2:initialState})]]></content>
+<tabTrigger>useState</tabTrigger>
+<scope>source.js</scope>
+<description></description>
 </snippet>

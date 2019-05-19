@@ -1,9 +1,9 @@
 <snippet>
-  <content><![CDATA[shouldComponentUpdate(nextProps, nextState) { 
+<content><![CDATA[shouldComponentUpdate(nextProps, nextState) { 
    $0 
  } 
  ]]></content>
-  <tabTrigger>scu</tabTrigger>
-  <scope>source.js</scope>
-  <description>Invoked before rendering when new props or state are being received. </description>
+<tabTrigger>scu</tabTrigger>
+<scope>source.js</scope>
+<description>Invoked before rendering when new props or state are being received. </description>
 </snippet>

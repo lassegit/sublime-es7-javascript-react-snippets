@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[/** 
+ |-------------------------------------------------- 
+ | $1 
+ |-------------------------------------------------- 
+ */]]></content>
+<tabTrigger>cmmb</tabTrigger>
+<scope>source.js</scope>
+<description></description>
+</snippet>

@@ -1,6 +1,6 @@
 <snippet>
-  <content><![CDATA[PropTypes.number.isRequired,]]></content>
-  <tabTrigger>ptnr</tabTrigger>
-  <scope>source.js</scope>
-  <description>Number prop type required</description>
+<content><![CDATA[PropTypes.number.isRequired,]]></content>
+<tabTrigger>ptnr</tabTrigger>
+<scope>source.js</scope>
+<description>Number prop type required</description>
 </snippet>

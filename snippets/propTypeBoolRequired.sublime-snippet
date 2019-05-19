@@ -1,6 +1,6 @@
 <snippet>
-  <content><![CDATA[PropTypes.bool.isRequired,]]></content>
-  <tabTrigger>ptbr</tabTrigger>
-  <scope>source.js</scope>
-  <description>Bool prop type required</description>
+<content><![CDATA[PropTypes.bool.isRequired,]]></content>
+<tabTrigger>ptbr</tabTrigger>
+<scope>source.js</scope>
+<description>Bool prop type required</description>
 </snippet>

@@ -1,9 +1,9 @@
 <snippet>
-  <content><![CDATA[componentWillUnmount() { 
+<content><![CDATA[componentWillUnmount() { 
    $0 
  } 
  ]]></content>
-  <tabTrigger>cwun</tabTrigger>
-  <scope>source.js</scope>
-  <description>Invoked immediately before a component is unmounted from the DOM.</description>
+<tabTrigger>cwun</tabTrigger>
+<scope>source.js</scope>
+<description>Invoked immediately before a component is unmounted from the DOM.</description>
 </snippet>

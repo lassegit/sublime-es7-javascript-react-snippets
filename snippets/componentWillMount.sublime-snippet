@@ -1,9 +1,9 @@
 <snippet>
-  <content><![CDATA[componentWillMount() { 
+<content><![CDATA[componentWillMount() { 
    $0 
  } 
  ]]></content>
-  <tabTrigger>cwm</tabTrigger>
-  <scope>source.js</scope>
-  <description>DEPRECATED!!!. Invoked once, both on the client and server, immediately before the initial rendering occurs</description>
+<tabTrigger>cwm</tabTrigger>
+<scope>source.js</scope>
+<description>DEPRECATED!!!. Invoked once, both on the client and server, immediately before the initial rendering occurs</description>
 </snippet>

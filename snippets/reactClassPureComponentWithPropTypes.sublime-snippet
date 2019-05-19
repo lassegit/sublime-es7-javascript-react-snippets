@@ -1,5 +1,5 @@
 <snippet>
-  <content><![CDATA[import React, { PureComponent } from 'react' 
+<content><![CDATA[import React, { PureComponent } from 'react' 
  import PropTypes from 'prop-types' 
   
  export default class ${1:${TM_FILENAME_BASE}} extends PureComponent { 
@@ -16,7 +16,7 @@
    } 
  } 
  ]]></content>
-  <tabTrigger>rpcp</tabTrigger>
-  <scope>source.js</scope>
-  <description>Creates a React component class with ES7 module system</description>
+<tabTrigger>rpcp</tabTrigger>
+<scope>source.js</scope>
+<description>Creates a React component class with ES7 module system</description>
 </snippet>
