@@ -1,8 +1,0 @@
-<snippet>
-  <content><![CDATA[import React, { Component } from 'react' 
- import PropTypes from 'prop-types' 
- ]]></content>
-  <tabTrigger>imrcp</tabTrigger>
-  <scope>source.js</scope>
-  <description></description>
-</snippet>
