@@ -1,4 +1,7 @@
-<snippet><content><![CDATA[import { connect } from 'react-redux' 
+<snippet>
+  <content><![CDATA[import { connect } from 'react-redux' 
  ]]></content>
-<tabTrigger>redux</tabTrigger>
+  <tabTrigger>redux</tabTrigger>
+  <scope>source.js</scope>
+  <description></description>
 </snippet>

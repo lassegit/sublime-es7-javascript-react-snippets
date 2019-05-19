@@ -1,3 +1,6 @@
-<snippet><content><![CDATA[const [state, dispatch] = useReducer(${1:reducer}, ${2:initialState}, ${3:init})]]></content>
-<tabTrigger>useReducer</tabTrigger>
+<snippet>
+  <content><![CDATA[const [state, dispatch] = useReducer(${1:reducer}, ${2:initialState}, ${3:init})]]></content>
+  <tabTrigger>useReducer</tabTrigger>
+  <scope>source.js</scope>
+  <description></description>
 </snippet>

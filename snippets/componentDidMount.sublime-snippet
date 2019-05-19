@@ -1,6 +1,9 @@
-<snippet><content><![CDATA[componentDidMount() { 
+<snippet>
+  <content><![CDATA[componentDidMount() { 
    $0 
  } 
  ]]></content>
-<tabTrigger>cdm</tabTrigger>
+  <tabTrigger>cdm</tabTrigger>
+  <scope>source.js</scope>
+  <description>Invoked once, only on the client (not on the server), immediately after the initial rendering occurs.</description>
 </snippet>

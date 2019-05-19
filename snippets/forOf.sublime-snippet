@@ -1,6 +1,9 @@
-<snippet><content><![CDATA[for(let ${1:item} of ${2:object}) { 
+<snippet>
+  <content><![CDATA[for(let ${1:item} of ${2:object}) { 
    ${0} 
  } 
  ]]></content>
-<tabTrigger>fof</tabTrigger>
+  <tabTrigger>fof</tabTrigger>
+  <scope>source.js</scope>
+  <description>Iterating over property names of iterable objects</description>
 </snippet>

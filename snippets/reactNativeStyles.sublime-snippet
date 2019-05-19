@@ -1,6 +1,9 @@
-<snippet><content><![CDATA[const styles = StyleSheet.create({ 
+<snippet>
+  <content><![CDATA[const styles = StyleSheet.create({ 
    ${1:style} 
  }) 
  ]]></content>
-<tabTrigger>rnstyle</tabTrigger>
+  <tabTrigger>rnstyle</tabTrigger>
+  <scope>source.js</scope>
+  <description></description>
 </snippet>

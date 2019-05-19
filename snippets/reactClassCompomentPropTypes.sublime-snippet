@@ -1,4 +1,5 @@
-<snippet><content><![CDATA[import React, { Component } from 'react' 
+<snippet>
+  <content><![CDATA[import React, { Component } from 'react' 
  import PropTypes from 'prop-types' 
   
  export default class ${1:${TM_FILENAME_BASE}} extends Component { 
@@ -15,5 +16,7 @@
    } 
  } 
  ]]></content>
-<tabTrigger>rccp</tabTrigger>
+  <tabTrigger>rccp</tabTrigger>
+  <scope>source.js</scope>
+  <description>Creates a React component class with PropTypes and ES7 module system</description>
 </snippet>

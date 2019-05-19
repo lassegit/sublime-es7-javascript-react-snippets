@@ -1,42 +1,36 @@
 import fs from 'fs';
 import snippets from './snippets.json';
 
-function getContent(body) {
+const getContent = body => {
   let sublimeContent = '';
   if (typeof body === 'string') {
     sublimeContent = body;
   } else {
     sublimeContent = body.reduce((total, current) => `${total} \n ${current}`);
   }
-  return `<content><![CDATA[${sublimeContent}]]></content>\n`;
-}
+  return `<content><![CDATA[${sublimeContent}]]></content>`;
+};
 
-function getTabTrigger(prefix) {
-  return `<tabTrigger>${prefix}</tabTrigger>\n`;
-}
+const getTabTrigger = prefix => `<tabTrigger>${prefix}</tabTrigger>`;
 
-function getScope() {
-  return `<scope>source.js</scope>\n`;
-}
+const getScope = () => `<scope>source.js</scope>`;
 
-function getDescription(description) {
-  if (!description) {
-    return;
-  }
+const getDescription = description =>
+  `<description>${description || ''}</description>`;
 
-  return `<description>${description}</description>`;
-}
+const getSnippet = (content, tabTrigger, scope, description) => `<snippet>
+  ${content}
+  ${tabTrigger}
+  ${scope}
+  ${description}
+</snippet>`;
 
-function getSnippet(content, tabTrigger, scope, description) {
-  return `<snippet>${content}${tabTrigger}</snippet>`;
-}
-
-function getFilename(key) {
+const getFilename = key => {
   const sublimeFilename = key.replace(' ', '');
   return `${sublimeFilename}.sublime-snippet`;
-}
+};
 
-function generateSnippets() {
+const generateSnippets = () => {
   for (const key in snippets) {
     if (!snippets.hasOwnProperty(key)) continue;
     const { prefix, body, description } = snippets[key];
@@ -64,6 +58,6 @@ function generateSnippets() {
       console.log(`An error occured creating: ${fileName}`);
     }
   }
-}
+};
 
 generateSnippets();

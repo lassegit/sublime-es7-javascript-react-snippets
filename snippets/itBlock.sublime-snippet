@@ -1,6 +1,9 @@
-<snippet><content><![CDATA[it('should $1', () => { 
+<snippet>
+  <content><![CDATA[it('should $1', () => { 
    $0 
  }) 
  ]]></content>
-<tabTrigger>tit</tabTrigger>
+  <tabTrigger>tit</tabTrigger>
+  <scope>source.js</scope>
+  <description>Testing `it` block</description>
 </snippet>

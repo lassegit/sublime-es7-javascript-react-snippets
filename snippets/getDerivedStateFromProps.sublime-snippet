@@ -1,5 +1,8 @@
-<snippet><content><![CDATA[static getDerivedStateFromProps(props, state) { 
+<snippet>
+  <content><![CDATA[static getDerivedStateFromProps(props, state) { 
    ${1} 
  }]]></content>
-<tabTrigger>gdsfp</tabTrigger>
+  <tabTrigger>gdsfp</tabTrigger>
+  <scope>source.js</scope>
+  <description>Invoked right before calling the render method, both on the initial mount and on subsequent updates.</description>
 </snippet>

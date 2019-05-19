@@ -1,4 +1,5 @@
-<snippet><content><![CDATA[import React from 'react' 
+<snippet>
+  <content><![CDATA[import React from 'react' 
  import PropTypes from 'prop-types' 
   
  function ${1:${TM_FILENAME_BASE}}(props) { 
@@ -16,5 +17,7 @@
  export default ${1:${TM_FILENAME_BASE}} 
   
  ]]></content>
-<tabTrigger>rfcp</tabTrigger>
+  <tabTrigger>rfcp</tabTrigger>
+  <scope>source.js</scope>
+  <description>Creates a React Functional Component with ES7 module system with PropTypes</description>
 </snippet>

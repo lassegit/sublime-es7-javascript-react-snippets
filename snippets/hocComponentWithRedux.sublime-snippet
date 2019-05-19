@@ -1,4 +1,5 @@
-<snippet><content><![CDATA[import React from 'react' 
+<snippet>
+  <content><![CDATA[import React from 'react' 
  import PropTypes from 'prop-types' 
  import { connect } from 'react-redux' 
   
@@ -21,5 +22,7 @@
   
  export default WrapperComponent => connect(mapStateToProps, mapDispatchToProps)(${1:hocComponentName}(WrapperComponent)) 
  ]]></content>
-<tabTrigger>hocredux</tabTrigger>
+  <tabTrigger>hocredux</tabTrigger>
+  <scope>source.js</scope>
+  <description></description>
 </snippet>

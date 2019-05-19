@@ -1,3 +1,6 @@
-<snippet><content><![CDATA[PropTypes.oneOf(['$0']).isRequired,]]></content>
-<tabTrigger>pter</tabTrigger>
+<snippet>
+  <content><![CDATA[PropTypes.oneOf(['$0']).isRequired,]]></content>
+  <tabTrigger>pter</tabTrigger>
+  <scope>source.js</scope>
+  <description>Prop type limited to specific values by treating it as an enum required</description>
 </snippet>

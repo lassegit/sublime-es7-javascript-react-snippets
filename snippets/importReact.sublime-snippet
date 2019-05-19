@@ -1,4 +1,7 @@
-<snippet><content><![CDATA[import React from 'react' 
+<snippet>
+  <content><![CDATA[import React from 'react' 
  ]]></content>
-<tabTrigger>imr</tabTrigger>
+  <tabTrigger>imr</tabTrigger>
+  <scope>source.js</scope>
+  <description></description>
 </snippet>

@@ -1,4 +1,5 @@
-<snippet><content><![CDATA[import React, { Component } from 'react' 
+<snippet>
+  <content><![CDATA[import React, { Component } from 'react' 
  import { View, Text } from 'react-native' 
  import PropTypes from 'prop-types' 
  import { connect } from 'react-redux' 
@@ -27,5 +28,7 @@
   
  export default connect(mapStateToProps, mapDispatchToProps)(${1:${TM_FILENAME_BASE}}) 
  ]]></content>
-<tabTrigger>rncredux</tabTrigger>
+  <tabTrigger>rncredux</tabTrigger>
+  <scope>source.js</scope>
+  <description>Creates a React Native component class with PropTypes with connected redux and ES7 module system</description>
 </snippet>

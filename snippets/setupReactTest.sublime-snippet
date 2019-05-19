@@ -1,4 +1,5 @@
-<snippet><content><![CDATA[import React from 'react' 
+<snippet>
+  <content><![CDATA[import React from 'react' 
  import renderer from 'react-test-renderer' 
   
  import { ${1:${TM_FILENAME_BASE}} } from '../${1:${TM_FILENAME_BASE}}' 
@@ -12,5 +13,7 @@
    }) 
  }) 
  ]]></content>
-<tabTrigger>stest</tabTrigger>
+  <tabTrigger>stest</tabTrigger>
+  <scope>source.js</scope>
+  <description></description>
 </snippet>

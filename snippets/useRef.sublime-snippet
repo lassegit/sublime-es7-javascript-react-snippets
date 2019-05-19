@@ -1,3 +1,6 @@
-<snippet><content><![CDATA[const ${1:ref} = useRef(${2:initialValue})]]></content>
-<tabTrigger>useRef</tabTrigger>
+<snippet>
+  <content><![CDATA[const ${1:ref} = useRef(${2:initialValue})]]></content>
+  <tabTrigger>useRef</tabTrigger>
+  <scope>source.js</scope>
+  <description></description>
 </snippet>

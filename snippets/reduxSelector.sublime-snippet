@@ -1,6 +1,9 @@
-<snippet><content><![CDATA[import { createSelector } from 'reselect' 
+<snippet>
+  <content><![CDATA[import { createSelector } from 'reselect' 
   
  export const ${1:selectorName} = state => state.${2:selector} 
  ]]></content>
-<tabTrigger>rxselect</tabTrigger>
+  <tabTrigger>rxselect</tabTrigger>
+  <scope>source.js</scope>
+  <description></description>
 </snippet>

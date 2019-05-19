@@ -1,6 +1,9 @@
-<snippet><content><![CDATA[static propTypes = { 
+<snippet>
+  <content><![CDATA[static propTypes = { 
  $0 
  } 
  ]]></content>
-<tabTrigger>ptypes</tabTrigger>
+  <tabTrigger>ptypes</tabTrigger>
+  <scope>source.js</scope>
+  <description></description>
 </snippet>

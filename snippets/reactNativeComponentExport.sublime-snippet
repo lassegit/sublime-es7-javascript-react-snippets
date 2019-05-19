@@ -1,4 +1,5 @@
-<snippet><content><![CDATA[import React, { Component } from 'react' 
+<snippet>
+  <content><![CDATA[import React, { Component } from 'react' 
  import { Text, View } from 'react-native' 
   
  export class ${1:${TM_FILENAME_BASE}} extends Component { 
@@ -13,5 +14,7 @@
   
  export default ${1:${TM_FILENAME_BASE}} 
  ]]></content>
-<tabTrigger>rnce</tabTrigger>
+  <tabTrigger>rnce</tabTrigger>
+  <scope>source.js</scope>
+  <description></description>
 </snippet>

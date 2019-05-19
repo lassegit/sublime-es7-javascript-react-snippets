@@ -1,9 +1,12 @@
-<snippet><content><![CDATA[render() { 
+<snippet>
+  <content><![CDATA[render() { 
    return ( 
      <div> 
        $0 
      </div> 
    ) 
  }]]></content>
-<tabTrigger>ren</tabTrigger>
+  <tabTrigger>ren</tabTrigger>
+  <scope>source.js</scope>
+  <description>Basic render.</description>
 </snippet>

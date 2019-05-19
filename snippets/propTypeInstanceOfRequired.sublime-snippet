@@ -1,3 +1,6 @@
-<snippet><content><![CDATA[PropTypes.instanceOf($0).isRequired,]]></content>
-<tabTrigger>ptir</tabTrigger>
+<snippet>
+  <content><![CDATA[PropTypes.instanceOf($0).isRequired,]]></content>
+  <tabTrigger>ptir</tabTrigger>
+  <scope>source.js</scope>
+  <description>Is an instance of a class prop type required</description>
 </snippet>

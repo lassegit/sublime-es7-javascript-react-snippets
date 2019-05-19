@@ -1,3 +1,6 @@
-<snippet><content><![CDATA[import { ${1:moduleName} } from 'react-native']]></content>
-<tabTrigger>imrn</tabTrigger>
+<snippet>
+  <content><![CDATA[import { ${1:moduleName} } from 'react-native']]></content>
+  <tabTrigger>imrn</tabTrigger>
+  <scope>source.js</scope>
+  <description></description>
 </snippet>

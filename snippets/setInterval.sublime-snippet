@@ -1,6 +1,9 @@
-<snippet><content><![CDATA[setInterval(() => { 
+<snippet>
+  <content><![CDATA[setInterval(() => { 
    ${2} 
  }, ${0:intervalInms}) 
  ]]></content>
-<tabTrigger>sti</tabTrigger>
+  <tabTrigger>sti</tabTrigger>
+  <scope>source.js</scope>
+  <description>Executes the given function at specified intervals in ES7 syntax</description>
 </snippet>

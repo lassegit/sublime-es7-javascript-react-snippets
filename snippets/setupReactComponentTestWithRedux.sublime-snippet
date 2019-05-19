@@ -1,4 +1,5 @@
-<snippet><content><![CDATA[import React from 'react' 
+<snippet>
+  <content><![CDATA[import React from 'react' 
  import renderer from 'react-test-renderer' 
  import { Provider } from 'react-redux' 
   
@@ -18,5 +19,7 @@
    }) 
  }) 
  ]]></content>
-<tabTrigger>srtest</tabTrigger>
+  <tabTrigger>srtest</tabTrigger>
+  <scope>source.js</scope>
+  <description>Create test component</description>
 </snippet>

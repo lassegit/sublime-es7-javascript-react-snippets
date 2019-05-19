@@ -1,5 +1,8 @@
-<snippet><content><![CDATA[import React, { PureComponent } from 'react' 
+<snippet>
+  <content><![CDATA[import React, { PureComponent } from 'react' 
  import PropTypes from 'prop-types' 
  ]]></content>
-<tabTrigger>imrpcp</tabTrigger>
+  <tabTrigger>imrpcp</tabTrigger>
+  <scope>source.js</scope>
+  <description></description>
 </snippet>

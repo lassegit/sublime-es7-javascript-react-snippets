@@ -1,4 +1,7 @@
-<snippet><content><![CDATA[const ${1:contextName} = React.createContext() 
+<snippet>
+  <content><![CDATA[const ${1:contextName} = React.createContext() 
  ]]></content>
-<tabTrigger>rcontext</tabTrigger>
+  <tabTrigger>rcontext</tabTrigger>
+  <scope>source.js</scope>
+  <description>Create React context</description>
 </snippet>

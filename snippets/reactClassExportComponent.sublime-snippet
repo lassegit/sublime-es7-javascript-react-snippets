@@ -1,4 +1,5 @@
-<snippet><content><![CDATA[import React, { Component } from 'react' 
+<snippet>
+  <content><![CDATA[import React, { Component } from 'react' 
   
  export class ${1:${TM_FILENAME_BASE}} extends Component { 
    render() { 
@@ -12,5 +13,7 @@
   
  export default ${1:${TM_FILENAME_BASE}} 
  ]]></content>
-<tabTrigger>rce</tabTrigger>
+  <tabTrigger>rce</tabTrigger>
+  <scope>source.js</scope>
+  <description>Creates a React component class with ES7 module system</description>
 </snippet>

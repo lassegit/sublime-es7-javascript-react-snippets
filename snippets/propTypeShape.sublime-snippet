@@ -1,5 +1,8 @@
-<snippet><content><![CDATA[PropTypes.shape({ 
+<snippet>
+  <content><![CDATA[PropTypes.shape({ 
    $0 
  }),]]></content>
-<tabTrigger>ptsh</tabTrigger>
+  <tabTrigger>ptsh</tabTrigger>
+  <scope>source.js</scope>
+  <description>An object taking on a particular shape</description>
 </snippet>

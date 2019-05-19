@@ -1,4 +1,5 @@
-<snippet><content><![CDATA[import React from 'react' 
+<snippet>
+  <content><![CDATA[import React from 'react' 
  import PropTypes from 'prop-types' 
   
  export default (WrappedComponent) => { 
@@ -10,5 +11,7 @@
    return hocComponent 
  } 
  ]]></content>
-<tabTrigger>hoc</tabTrigger>
+  <tabTrigger>hoc</tabTrigger>
+  <scope>source.js</scope>
+  <description></description>
 </snippet>

@@ -1,3 +1,6 @@
-<snippet><content><![CDATA[PropTypes.node.isRequired,]]></content>
-<tabTrigger>ptndr</tabTrigger>
+<snippet>
+  <content><![CDATA[PropTypes.node.isRequired,]]></content>
+  <tabTrigger>ptndr</tabTrigger>
+  <scope>source.js</scope>
+  <description>Anything that can be rendered: numbers, strings, elements or an array required</description>
 </snippet>

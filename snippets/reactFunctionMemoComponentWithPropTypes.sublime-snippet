@@ -1,4 +1,5 @@
-<snippet><content><![CDATA[import React, { memo } from 'react' 
+<snippet>
+  <content><![CDATA[import React, { memo } from 'react' 
  import PropTypes from 'prop-types' 
   
  const ${1:${TM_FILENAME_BASE}} = memo(function ${1:${TM_FILENAME_BASE}}(props) { 
@@ -15,5 +16,7 @@
   
  export default ${1:${TM_FILENAME_BASE}} 
  ]]></content>
-<tabTrigger>rmcp</tabTrigger>
+  <tabTrigger>rmcp</tabTrigger>
+  <scope>source.js</scope>
+  <description>Creates a React Memo Function Component with ES7 module system with PropTypes</description>
 </snippet>
