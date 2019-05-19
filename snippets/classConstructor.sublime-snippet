@@ -1,0 +1,10 @@
+<snippet><content><![CDATA[constructor(props) { 
+   super(props) 
+  
+   this.state = { 
+      $0 
+   } 
+ } 
+ ]]></content>
+<tabTrigger>rconst</tabTrigger>
+</snippet>

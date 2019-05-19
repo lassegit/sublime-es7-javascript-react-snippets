@@ -1,0 +1,16 @@
+<snippet><content><![CDATA[import React from 'react' 
+ import renderer from 'react-test-renderer' 
+  
+ import { ${1:${TM_FILENAME_BASE}} } from '../${1:${TM_FILENAME_BASE}}' 
+  
+ describe('<${1:${TM_FILENAME_BASE}} />', () => { 
+   const defaultProps = {} 
+   const wrapper = renderer.create(<${1:${TM_FILENAME_BASE}} {...defaultProps} />) 
+  
+   test('render', () => { 
+     expect(wrapper).toMatchSnapshot() 
+   }) 
+ }) 
+ ]]></content>
+<tabTrigger>stest</tabTrigger>
+</snippet>

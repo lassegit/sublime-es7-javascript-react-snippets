@@ -1,0 +1,12 @@
+<snippet><content><![CDATA[import React from 'react' 
+  
+ export default function ${1:${TM_FILENAME_BASE}}() { 
+   return ( 
+     <div> 
+       $0 
+     </div> 
+   ) 
+ } 
+ ]]></content>
+<tabTrigger>rfc</tabTrigger>
+</snippet>

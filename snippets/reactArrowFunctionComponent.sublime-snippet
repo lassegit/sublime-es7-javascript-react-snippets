@@ -1,0 +1,14 @@
+<snippet><content><![CDATA[import React from 'react' 
+  
+ const ${1:${TM_FILENAME_BASE}} = () => { 
+   return ( 
+     <div> 
+       $0 
+     </div> 
+   ) 
+ } 
+  
+ export default ${1:${TM_FILENAME_BASE}} 
+ ]]></content>
+<tabTrigger>rafc,rafce</tabTrigger>
+</snippet>

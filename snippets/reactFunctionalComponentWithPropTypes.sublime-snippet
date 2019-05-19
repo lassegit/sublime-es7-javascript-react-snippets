@@ -1,0 +1,20 @@
+<snippet><content><![CDATA[import React from 'react' 
+ import PropTypes from 'prop-types' 
+  
+ function ${1:${TM_FILENAME_BASE}}(props) { 
+   return ( 
+     <div> 
+       $0 
+     </div> 
+   ) 
+ } 
+  
+ ${1:${TM_FILENAME_BASE}}.propTypes = { 
+  
+ } 
+  
+ export default ${1:${TM_FILENAME_BASE}} 
+  
+ ]]></content>
+<tabTrigger>rfcp</tabTrigger>
+</snippet>

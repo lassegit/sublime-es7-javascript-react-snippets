@@ -1,0 +1,10 @@
+<snippet><content><![CDATA[const mapStateToProps = (state) => ({ 
+   ${1} 
+ }) 
+  
+ const mapDispatchToProps = { 
+    
+ } 
+ ]]></content>
+<tabTrigger>reduxmap</tabTrigger>
+</snippet>

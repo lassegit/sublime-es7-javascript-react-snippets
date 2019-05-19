@@ -1,0 +1,8 @@
+<snippet><content><![CDATA[useCallback( 
+   () => { 
+     ${1:callback} 
+   }, 
+   [${2:input}], 
+ )]]></content>
+<tabTrigger>useCallback</tabTrigger>
+</snippet>

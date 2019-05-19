@@ -1,0 +1,3 @@
+<snippet><content><![CDATA[console.info(${1:object})]]></content>
+<tabTrigger>cin</tabTrigger>
+</snippet>

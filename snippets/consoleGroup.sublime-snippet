@@ -1,0 +1,3 @@
+<snippet><content><![CDATA[console.group("${1:label}")]]></content>
+<tabTrigger>cgr</tabTrigger>
+</snippet>

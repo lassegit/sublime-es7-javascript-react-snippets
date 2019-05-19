@@ -1,0 +1,6 @@
+<snippet><content><![CDATA[setTimeout(() => { 
+   ${2} 
+ }, ${1:delayInms}) 
+ ]]></content>
+<tabTrigger>sto</tabTrigger>
+</snippet>

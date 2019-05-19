@@ -1,0 +1,4 @@
+<snippet><content><![CDATA[import PropTypes from 'prop-types' 
+ ]]></content>
+<tabTrigger>impt</tabTrigger>
+</snippet>

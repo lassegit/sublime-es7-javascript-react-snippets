@@ -1,0 +1,3 @@
+<snippet><content><![CDATA[console.timeEnd('${1:object}')]]></content>
+<tabTrigger>cte</tabTrigger>
+</snippet>

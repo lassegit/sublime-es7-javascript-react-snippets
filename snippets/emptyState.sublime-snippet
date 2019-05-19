@@ -1,0 +1,6 @@
+<snippet><content><![CDATA[state = { 
+   $1 
+ } 
+ ]]></content>
+<tabTrigger>est</tabTrigger>
+</snippet>

@@ -1,0 +1,4 @@
+<snippet><content><![CDATA[import React, { memo } from 'react' 
+ ]]></content>
+<tabTrigger>imrm</tabTrigger>
+</snippet>

@@ -1,0 +1,4 @@
+<snippet><content><![CDATA[this.${1:refName}Ref = React.createRef() 
+ ]]></content>
+<tabTrigger>cref</tabTrigger>
+</snippet>

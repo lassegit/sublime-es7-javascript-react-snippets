@@ -1,0 +1,6 @@
+<snippet><content><![CDATA[static propTypes = { 
+ $0 
+ } 
+ ]]></content>
+<tabTrigger>ptypes</tabTrigger>
+</snippet>

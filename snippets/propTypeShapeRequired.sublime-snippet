@@ -1,0 +1,5 @@
+<snippet><content><![CDATA[PropTypes.shape({ 
+   $0 
+ }).isRequired,]]></content>
+<tabTrigger>ptshr</tabTrigger>
+</snippet>

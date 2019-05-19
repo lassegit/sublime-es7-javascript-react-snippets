@@ -1,0 +1,28 @@
+{
+  "name": "sublime-es7-javascript-react-snippets",
+  "version": "1.0.0",
+  "description": "Extension for Javascript/React snippets with search supporting ES7 and babel features",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "babel-node src/index.js",
+    "dev": "nodemon --exec babel-node src/index.js"
+  },
+  "keywords": [
+    "Javascript",
+    "snippets",
+    "react",
+    "babel"
+  ],
+  "author": "Lasse Tange",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.4.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "fs": "^0.0.1-security",
+    "nodemon": "^1.19.0"
+  }
+}

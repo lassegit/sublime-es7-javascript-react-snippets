@@ -1,0 +1,4 @@
+<snippet><content><![CDATA[import React, { Component } from 'react' 
+ ]]></content>
+<tabTrigger>imrc</tabTrigger>
+</snippet>

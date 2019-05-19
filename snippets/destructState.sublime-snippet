@@ -1,0 +1,3 @@
+<snippet><content><![CDATA[const { $1 } = this.state]]></content>
+<tabTrigger>cs</tabTrigger>
+</snippet>

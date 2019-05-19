@@ -1,0 +1,9 @@
+<snippet><content><![CDATA[render() { 
+   return ( 
+     <div> 
+       $0 
+     </div> 
+   ) 
+ }]]></content>
+<tabTrigger>ren</tabTrigger>
+</snippet>

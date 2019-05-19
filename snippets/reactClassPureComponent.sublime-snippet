@@ -1,0 +1,14 @@
+<snippet><content><![CDATA[import React, { PureComponent } from 'react' 
+  
+ export default class ${1:${TM_FILENAME_BASE}} extends PureComponent { 
+   render() { 
+     return ( 
+       <div> 
+         $0 
+       </div> 
+     ) 
+   } 
+ } 
+ ]]></content>
+<tabTrigger>rpc</tabTrigger>
+</snippet>

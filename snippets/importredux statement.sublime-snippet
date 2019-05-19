@@ -1,0 +1,4 @@
+<snippet><content><![CDATA[import { connect } from 'react-redux' 
+ ]]></content>
+<tabTrigger>redux</tabTrigger>
+</snippet>

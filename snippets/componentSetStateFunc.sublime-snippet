@@ -1,0 +1,4 @@
+<snippet><content><![CDATA[this.setState((state, props) => { return { $0 }}) 
+ ]]></content>
+<tabTrigger>ssf</tabTrigger>
+</snippet>

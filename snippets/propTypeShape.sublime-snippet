@@ -1,0 +1,5 @@
+<snippet><content><![CDATA[PropTypes.shape({ 
+   $0 
+ }),]]></content>
+<tabTrigger>ptsh</tabTrigger>
+</snippet>

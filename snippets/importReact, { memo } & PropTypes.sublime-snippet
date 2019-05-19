@@ -1,0 +1,5 @@
+<snippet><content><![CDATA[import React, { memo } from 'react' 
+ import PropTypes from 'prop-types' 
+ ]]></content>
+<tabTrigger>imrmp</tabTrigger>
+</snippet>

@@ -1,0 +1,3 @@
+<snippet><content><![CDATA[const ${1:ref} = useRef(${2:initialValue})]]></content>
+<tabTrigger>useRef</tabTrigger>
+</snippet>

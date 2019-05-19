@@ -1,0 +1,5 @@
+<snippet><content><![CDATA[PropTypes.oneOfType([ 
+   $0 
+ ]),]]></content>
+<tabTrigger>ptet</tabTrigger>
+</snippet>

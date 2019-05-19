@@ -1,0 +1,4 @@
+<snippet><content><![CDATA[import { compose, graphql } from 'react-apollo' 
+ ]]></content>
+<tabTrigger>graphql</tabTrigger>
+</snippet>

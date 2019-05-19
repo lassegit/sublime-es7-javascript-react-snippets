@@ -1,0 +1,6 @@
+<snippet><content><![CDATA[return new Promise((resolve, reject) => { 
+   ${1} 
+ }) 
+ ]]></content>
+<tabTrigger>prom</tabTrigger>
+</snippet>

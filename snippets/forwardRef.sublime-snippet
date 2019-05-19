@@ -1,0 +1,4 @@
+<snippet><content><![CDATA[const ref = React.createRef() 
+ ]]></content>
+<tabTrigger>fref</tabTrigger>
+</snippet>

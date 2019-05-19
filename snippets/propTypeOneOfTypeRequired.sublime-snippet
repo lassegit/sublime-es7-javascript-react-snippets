@@ -1,0 +1,5 @@
+<snippet><content><![CDATA[PropTypes.oneOfType([ 
+   $0 
+ ]).isRequired,]]></content>
+<tabTrigger>ptetr</tabTrigger>
+</snippet>

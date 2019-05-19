@@ -1,0 +1,4 @@
+<snippet><content><![CDATA[import React, { PureComponent } from 'react' 
+ ]]></content>
+<tabTrigger>imrpc</tabTrigger>
+</snippet>

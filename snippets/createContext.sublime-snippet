@@ -1,0 +1,4 @@
+<snippet><content><![CDATA[const ${1:contextName} = React.createContext() 
+ ]]></content>
+<tabTrigger>rcontext</tabTrigger>
+</snippet>

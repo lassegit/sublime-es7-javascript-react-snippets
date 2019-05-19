@@ -1,0 +1,15 @@
+<snippet><content><![CDATA[import React, { Component } from 'react' 
+ import { Text, View } from 'react-native' 
+  
+ export default class ${1:${TM_FILENAME_BASE}} extends Component { 
+   render() { 
+     return ( 
+       <View> 
+         <Text> ${2:textInComponent} </Text> 
+       </View> 
+     ) 
+   } 
+ } 
+ ]]></content>
+<tabTrigger>rnc</tabTrigger>
+</snippet>
