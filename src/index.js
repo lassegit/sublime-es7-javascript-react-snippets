@@ -26,7 +26,7 @@ const getSnippet = (content, tabTrigger, scope, description) => `<snippet>
 </snippet>`;
 
 const getFilename = key => {
-  const sublimeFilename = key.replace(' ', '');
+  const sublimeFilename = key.replace(/ /g, '');
   return `${sublimeFilename}.sublime-snippet`;
 };
 

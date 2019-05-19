@@ -33,7 +33,12 @@
   },
   "exportNamedFunction": {
     "prefix": "enf",
-    "body": ["export const ${1:functionName} = (${2:params}) => {", "  $0", "}", ""],
+    "body": [
+      "export const ${1:functionName} = (${2:params}) => {",
+      "  $0",
+      "}",
+      ""
+    ],
     "description": "Export named function in ES7 syntax"
   },
   "exportDefaultFunction": {
@@ -200,7 +205,11 @@
   },
   "import React, { Component } & PropTypes": {
     "prefix": "imrcp",
-    "body": ["import React, { Component } from 'react'", "import PropTypes from 'prop-types'", ""]
+    "body": [
+      "import React, { Component } from 'react'",
+      "import PropTypes from 'prop-types'",
+      ""
+    ]
   },
   "import React, { PureComponent }": {
     "prefix": "imrpc",
@@ -220,7 +229,11 @@
   },
   "import React, { memo } & PropTypes": {
     "prefix": "imrmp",
-    "body": ["import React, { memo } from 'react'", "import PropTypes from 'prop-types'", ""]
+    "body": [
+      "import React, { memo } from 'react'",
+      "import PropTypes from 'prop-types'",
+      ""
+    ]
   },
   "import PropTypes": {
     "prefix": "impt",
@@ -228,7 +241,10 @@
   },
   "import React Router": {
     "prefix": "imrr",
-    "body": ["import { BrowserRouter as Router, Route, Link } from 'react-router-dom'", ""]
+    "body": [
+      "import { BrowserRouter as Router, Route, Link } from 'react-router-dom'",
+      ""
+    ]
   },
   "import redux statement": {
     "prefix": "redux",
@@ -627,12 +643,25 @@
   },
   "getSnapshotBeforeUpdate": {
     "prefix": "gsbu",
-    "body": ["getSnapshotBeforeUpdate = (prevProps, prevState) => {", "  $0", "}", ""],
+    "body": [
+      "getSnapshotBeforeUpdate = (prevProps, prevState) => {",
+      "  $0",
+      "}",
+      ""
+    ],
     "description": "Called right before mutations are made (e.g. before the DOM is updated)"
   },
   "componentRender": {
     "prefix": "ren",
-    "body": ["render() {", "  return (", "    <div>", "      $0", "    </div>", "  )", "}"],
+    "body": [
+      "render() {",
+      "  return (",
+      "    <div>",
+      "      $0",
+      "    </div>",
+      "  )",
+      "}"
+    ],
     "description": "Basic render."
   },
   "createContext": {
@@ -1198,11 +1227,19 @@
   },
   "useState": {
     "prefix": "useState",
-    "body": ["const [${1:state}, set${1/(.*)/${1:/capitalize}/}] = useState(${2:initialState})"]
+    "body": [
+      "const [${1:state}, set${1/(.*)/${1:/capitalize}/}] = useState(${2:initialState})"
+    ]
   },
   "useEffect": {
     "prefix": "useEffect",
-    "body": ["useEffect(() => {", "  return () => {", "    ${1:effect}", "  };", "}, [${2:input}])"]
+    "body": [
+      "useEffect(() => {",
+      "  return () => {",
+      "    ${1:effect}",
+      "  };",
+      "}, [${2:input}])"
+    ]
   },
   "useContext": {
     "prefix": "useContext",
@@ -1210,11 +1247,20 @@
   },
   "useReducer": {
     "prefix": "useReducer",
-    "body": ["const [state, dispatch] = useReducer(${1:reducer}, ${2:initialState}, ${3:init})"]
+    "body": [
+      "const [state, dispatch] = useReducer(${1:reducer}, ${2:initialState}, ${3:init})"
+    ]
   },
   "useCallback": {
     "prefix": "useCallback",
-    "body": ["useCallback(", "  () => {", "    ${1:callback}", "  },", "  [${2:input}],", ")"]
+    "body": [
+      "useCallback(",
+      "  () => {",
+      "    ${1:callback}",
+      "  },",
+      "  [${2:input}],",
+      ")"
+    ]
   },
   "useMemo": {
     "prefix": "useMemo",
