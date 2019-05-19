@@ -1,6 +1,6 @@
-# Port of `VS Code ES7 React/Redux/React-Native/JS snippets` to `Sublime Editor`
+# Bringing all the snippets from the `VS Code ES7 React/Redux/React-Native/JS snippets` extension to `Sublime Editor`
 
-Documentation: https://github.com/dsznajder/vscode-es7-javascript-react-snippets
+Documentation and list of snippets: https://github.com/dsznajder/vscode-es7-javascript-react-snippets
 
 ## Installation
 
