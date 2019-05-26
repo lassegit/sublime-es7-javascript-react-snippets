@@ -2,17 +2,17 @@
 <content><![CDATA[import React from 'react'
 import { Text, View } from 'react-native'
 
-export class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}} extends React.Component {
-  render() {
-    return (
-      <View>
-        <Text> ${2:textInComponent} </Text>
-      </View>
-    )
-  }
+export class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}} extends Component {
+	render() {
+		return (
+			<View>
+				<Text> ${2:textInComponent} </Text>
+			</View>
+		)
+	}
 }
 
-export default ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}}
+export default ${1:${TM_FILENAME_BASE}}
 ]]></content>
 <tabTrigger>rnce</tabTrigger>
 <scope>source.js</scope>

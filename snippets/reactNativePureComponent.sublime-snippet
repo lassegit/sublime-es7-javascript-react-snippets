@@ -2,14 +2,14 @@
 <content><![CDATA[import React from 'react'
 import { Text, View } from 'react-native'
 
-export default class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}} extends React.PureComponent {
-  render() {
-    return (
-      <View>
-        <Text> ${2:textInComponent} </Text>
-      </View>
-    )
-  }
+export default class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}} extends PureComponent {
+	render() {
+		return (
+			<View>
+				<Text> ${2:textInComponent} </Text>
+			</View>
+		)
+	}
 }
 ]]></content>
 <tabTrigger>rnpc</tabTrigger>

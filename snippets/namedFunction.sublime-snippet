@@ -1,6 +1,6 @@
 <snippet>
 <content><![CDATA[const ${1:name} = (${2:params}) => {
-  ${3}
+	${3}
 }
 ]]></content>
 <tabTrigger>nfn</tabTrigger>

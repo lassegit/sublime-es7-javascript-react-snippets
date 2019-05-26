@@ -4,14 +4,14 @@
 }
 
 export default (state = initialState, { type, payload }) => {
-  switch (type) {
+	switch (type) {
 
-  case ${1:typeName}:
-    return { ...state, ...payload }
+	case ${1:typeName}:
+		return { ...state, ...payload }
 
-  default:
-    return state
-  }
+	default:
+		return state
+	}
 }
 ]]></content>
 <tabTrigger>rxreducer</tabTrigger>

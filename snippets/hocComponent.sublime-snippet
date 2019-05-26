@@ -3,12 +3,12 @@
 import PropTypes from 'prop-types'
 
 export default (WrappedComponent) => {
-  const hocComponent = ({ ...props }) => <WrappedComponent {...props} />
+	const hocComponent = ({ ...props }) => <WrappedComponent {...props} />
 
-  hocComponent.propTypes = {
-  }
+	hocComponent.propTypes = {
+	}
 
-  return hocComponent
+	return hocComponent
 }
 ]]></content>
 <tabTrigger>hoc</tabTrigger>

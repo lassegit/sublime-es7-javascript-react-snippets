@@ -3,29 +3,29 @@
 import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
 
-export class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}} extends React.Component {
-  static propTypes = {
-    ${2:prop}: ${3:PropTypes}
-  }
+export class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}} extends Component {
+	static propTypes = {
+		${2:prop}: ${3:PropTypes}
+	}
 
-  render() {
-    return (
-      <div>
-        $0
-      </div>
-    )
-  }
+	render() {
+		return (
+			<div>
+				$0
+			</div>
+		)
+	}
 }
 
 const mapStateToProps = (state) => ({
-  
+	
 })
 
 const mapDispatchToProps = {
-  
+	
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}})
+export default connect(mapStateToProps, mapDispatchToProps)(${1:${TM_FILENAME_BASE}})
 ]]></content>
 <tabTrigger>rcredux</tabTrigger>
 <scope>source.js</scope>

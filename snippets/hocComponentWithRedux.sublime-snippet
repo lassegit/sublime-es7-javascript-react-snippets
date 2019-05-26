@@ -12,12 +12,12 @@ export const mapDispatchToProps = {
 }
 
 export const ${1:hocComponentName} = (WrappedComponent) => {
-  const hocComponent = ({ ...props }) => <WrappedComponent {...props} />
+	const hocComponent = ({ ...props }) => <WrappedComponent {...props} />
 
-  hocComponent.propTypes = {
-  }
+	hocComponent.propTypes = {
+	}
 
-  return hocComponent
+	return hocComponent
 }
 
 export default WrapperComponent => connect(mapStateToProps, mapDispatchToProps)(${1:hocComponentName}(WrapperComponent))

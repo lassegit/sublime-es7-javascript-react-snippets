@@ -2,7 +2,27 @@ import fs from 'fs';
 import snippets from './snippets.json';
 
 /**
- * Get the actually code snippet
+ * Various replacement patterns
+ * @param  {string} unparsed code snippet
+ * @return {string} parsed code snippet
+ */
+const parseSnippet = text => {
+  const parsedText = text
+    .replace('TM_FILENAME_BASE', 'TM_FILENAME/(.+)\\..+|.*/$1/:name')
+    .replace(', { Component }', '') // Avoid importing Component and PureComponent separately
+    .replace(', { PureComponent }', '')
+    .replace('extends Component', 'extends Component')
+    .replace('extends PureComponent', 'extends PureComponent')
+    .replace(
+      'const [${1:state}, set${1/(.*)/${1:/capitalize}/}] = useState(${2:initialState})',
+      'const [${1:state}, set${2:State}] = useState(${3:initialState})',
+    );
+
+  return parsedText;
+};
+
+/**
+ * Get the actually code snippet and parse to fit Sublime snippet format
  * @param  {string} body
  */
 const getContent = body => {
@@ -13,7 +33,10 @@ const getContent = body => {
     // Some are stored as json arrays and needs to be reduced into a text snippet
     sublimeContent = body.reduce((total, current) => `${total}\n${current}`);
   }
-  return `<content><![CDATA[${sublimeContent}]]></content>`;
+
+  const parsedSublimeContent = parseSnippet(sublimeContent);
+
+  return `<content><![CDATA[${parsedSublimeContent}]]></content>`;
 };
 
 /**
@@ -31,7 +54,7 @@ const getScope = () => `<scope>source.js</scope>`;
  * Get the description field
  * @param  {string} description
  */
-const getDescription = key => `<description>${key}</description>`;
+const getDescription = key => `<description>${parseSnippet(key)}</description>`;
 
 /**
  * Putting the xml tags togehter in the sublime snippet format
@@ -52,7 +75,8 @@ ${description}
  * @param  {string} key
  */
 const getFilename = key => {
-  const sublimeFilename = key.replace(/ /g, '').replace(/[^\w.]/g, '');
+  let sublimeFilename = parseSnippet(key);
+  sublimeFilename = sublimeFilename.replace(/ /g, '').replace(/[^\w.]/g, '');
   return `${sublimeFilename}.sublime-snippet`;
 };
 
@@ -84,7 +108,7 @@ const generateSnippets = () => {
         console.log(`${fileName} added.`);
       });
     } catch (err) {
-      console.log(`Error occured creating: ${fileName}`);
+      console.log(`Error occured creating: ${fileName} ${err}`);
     }
   }
 };

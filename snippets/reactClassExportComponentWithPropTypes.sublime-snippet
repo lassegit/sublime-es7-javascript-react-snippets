@@ -2,21 +2,21 @@
 <content><![CDATA[import React from 'react'
 import PropTypes from 'prop-types'
 
-export class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}} extends React.Component {
-  static propTypes = {
+export class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}} extends Component {
+	static propTypes = {
 
-  }
+	}
 
-  render() {
-    return (
-      <div>
-        $0
-      </div>
-    )
-  }
+	render() {
+		return (
+			<div>
+				$0
+			</div>
+		)
+	}
 }
 
-export default ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}}
+export default ${1:${TM_FILENAME_BASE}}
 ]]></content>
 <tabTrigger>rcep</tabTrigger>
 <scope>source.js</scope>

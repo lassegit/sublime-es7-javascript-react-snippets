@@ -5,19 +5,19 @@ import renderer from 'react-test-renderer'
 import { Provider } from 'react-redux'
 
 import store from 'src/store'
-import ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}} from '../${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}}'
+import ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}} from '../${1:${TM_FILENAME_BASE}}'
 
-describe('<${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}} />', () => {
-  const defaultProps = {}
-  const wrapper = renderer.create(
-    <Provider store={store}>
-      <${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}} {...defaultProps} />
-    </Provider>,
-  )
+describe('<${1:${TM_FILENAME_BASE}} />', () => {
+	const defaultProps = {}
+	const wrapper = renderer.create(
+		<Provider store={store}>
+			<${1:${TM_FILENAME_BASE}} {...defaultProps} />
+		</Provider>,
+	)
 
-  test('render', () => {
-    expect(wrapper).toMatchSnapshot()
-  })
+	test('render', () => {
+		expect(wrapper).toMatchSnapshot()
+	})
 })
 ]]></content>
 <tabTrigger>snrtest</tabTrigger>

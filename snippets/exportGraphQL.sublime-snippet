@@ -1,6 +1,6 @@
 <snippet>
 <content><![CDATA[export default compose(
-  graphql(${1:queryOrMutation}, { name: ${2:name} }),
+	graphql(${1:queryOrMutation}, { name: ${2:name} }),
 )(${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}})]]></content>
 <tabTrigger>expgql</tabTrigger>
 <scope>source.js</scope>

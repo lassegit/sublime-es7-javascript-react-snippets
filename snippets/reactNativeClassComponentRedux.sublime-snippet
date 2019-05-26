@@ -4,29 +4,29 @@ import { View, Text } from 'react-native'
 import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
 
-export class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}} extends React.Component {
-  static propTypes = {
-    ${2:prop}: ${3:PropTypes}
-  }
+export class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}} extends Component {
+	static propTypes = {
+		${2:prop}: ${3:PropTypes}
+	}
 
-  render() {
-    return (
-      <View>
-        <Text> ${2:textInComponent} </Text>
-      </View>
-    )
-  }
+	render() {
+		return (
+			<View>
+				<Text> ${2:textInComponent} </Text>
+			</View>
+		)
+	}
 }
 
 const mapStateToProps = (state) => ({
-  
+	
 })
 
 const mapDispatchToProps = {
-  
+	
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}})
+export default connect(mapStateToProps, mapDispatchToProps)(${1:${TM_FILENAME_BASE}})
 ]]></content>
 <tabTrigger>rncredux</tabTrigger>
 <scope>source.js</scope>

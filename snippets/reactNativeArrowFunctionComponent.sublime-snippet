@@ -3,14 +3,14 @@
 import { View, Text } from 'react-native'
 
 const ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}} = () => {
-  return (
-    <View>
-      <Text>$0</Text>
-    </View>
-  )
+	return (
+		<View>
+			<Text>$0</Text>
+		</View>
+	)
 }
 
-export default ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}}
+export default ${1:${TM_FILENAME_BASE}}
 ]]></content>
 <tabTrigger>rnf</tabTrigger>
 <scope>source.js</scope>

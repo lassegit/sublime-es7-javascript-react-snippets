@@ -1,14 +1,14 @@
 <snippet>
 <content><![CDATA[import React from 'react'
 
-export default class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}} extends React.PureComponent {
-  render() {
-    return (
-      <div>
-        $0
-      </div>
-    )
-  }
+export default class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}} extends PureComponent {
+	render() {
+		return (
+			<div>
+				$0
+			</div>
+		)
+	}
 }
 ]]></content>
 <tabTrigger>rpc</tabTrigger>

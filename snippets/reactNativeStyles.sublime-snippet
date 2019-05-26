@@ -1,6 +1,6 @@
 <snippet>
 <content><![CDATA[const styles = StyleSheet.create({
-  ${1:style}
+	${1:style}
 })
 ]]></content>
 <tabTrigger>rnstyle</tabTrigger>

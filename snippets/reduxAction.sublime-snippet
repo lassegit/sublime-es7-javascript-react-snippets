@@ -1,7 +1,7 @@
 <snippet>
 <content><![CDATA[export const ${1:actionName} = (payload) => ({
-  type: ${3:type},
-  payload
+	type: ${3:type},
+	payload
 })
 ]]></content>
 <tabTrigger>rxaction</tabTrigger>
