@@ -1,6 +1,6 @@
 <snippet>
-<content><![CDATA[this.${1:refName}Ref = React.createRef() 
- ]]></content>
+<content><![CDATA[this.${1:refName}Ref = React.createRef()
+]]></content>
 <tabTrigger>cref</tabTrigger>
 <scope>source.js</scope>
 <description>Create ref statement used inside constructor</description>

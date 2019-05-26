@@ -1,8 +1,8 @@
 <snippet>
-<content><![CDATA[const ${1:name} = (${2:params}) => { 
-   ${3} 
- } 
- ]]></content>
+<content><![CDATA[const ${1:name} = (${2:params}) => {
+  ${3}
+}
+]]></content>
 <tabTrigger>nfn</tabTrigger>
 <scope>source.js</scope>
 <description>Creates a named function in ES7 syntax</description>

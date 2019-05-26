@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[PropTypes.shape({ 
-   $0 
- }).isRequired,]]></content>
+<content><![CDATA[PropTypes.shape({
+  $0
+}).isRequired,]]></content>
 <tabTrigger>ptshr</tabTrigger>
 <scope>source.js</scope>
 <description>An object taking on a particular shape required</description>

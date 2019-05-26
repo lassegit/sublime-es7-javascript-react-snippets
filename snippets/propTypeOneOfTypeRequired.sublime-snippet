@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[PropTypes.oneOfType([ 
-   $0 
- ]).isRequired,]]></content>
+<content><![CDATA[PropTypes.oneOfType([
+  $0
+]).isRequired,]]></content>
 <tabTrigger>ptetr</tabTrigger>
 <scope>source.js</scope>
 <description>An object that could be one of many types required</description>

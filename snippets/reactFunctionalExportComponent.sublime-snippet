@@ -1,16 +1,16 @@
 <snippet>
-<content><![CDATA[import React from 'react' 
-  
- function ${1:${TM_FILENAME_BASE}}() { 
-   return ( 
-     <div> 
-       $0 
-     </div> 
-   ) 
- } 
-  
- export default ${1:${TM_FILENAME_BASE}} 
- ]]></content>
+<content><![CDATA[import React from 'react'
+
+function ${1:${TM_FILENAME/(\w+)\.js/\1/g}}() {
+  return (
+    <div>
+      $0
+    </div>
+  )
+}
+
+export default ${1:${TM_FILENAME/(\w+)\.js/\1/g}}
+]]></content>
 <tabTrigger>rfce</tabTrigger>
 <scope>source.js</scope>
 <description>Creates a React Functional Component with ES7 module system</description>

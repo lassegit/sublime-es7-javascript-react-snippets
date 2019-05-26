@@ -1,19 +1,19 @@
 <snippet>
-<content><![CDATA[import React, { PureComponent } from 'react' 
- import { Text, View } from 'react-native' 
-  
- export class ${1:${TM_FILENAME_BASE}} extends PureComponent { 
-   render() { 
-     return ( 
-       <View> 
-         <Text> ${2:textInComponent} </Text> 
-       </View> 
-     ) 
-   } 
- } 
-  
- export default ${1:${TM_FILENAME_BASE}} 
- ]]></content>
+<content><![CDATA[import React, { PureComponent } from 'react'
+import { Text, View } from 'react-native'
+
+export class ${1:${TM_FILENAME/(\w+)\.js/\1/g}} extends PureComponent {
+  render() {
+    return (
+      <View>
+        <Text> ${2:textInComponent} </Text>
+      </View>
+    )
+  }
+}
+
+export default ${1:${TM_FILENAME/(\w+)\.js/\1/g}}
+]]></content>
 <tabTrigger>rnpce</tabTrigger>
 <scope>source.js</scope>
 <description></description>

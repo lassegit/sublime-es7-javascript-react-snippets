@@ -1,8 +1,8 @@
 <snippet>
-<content><![CDATA[set ${1:propertyName}(${2:value}) { 
-   ${0} 
- } 
- ]]></content>
+<content><![CDATA[set ${1:propertyName}(${2:value}) {
+  ${0}
+}
+]]></content>
 <tabTrigger>pse</tabTrigger>
 <scope>source.js</scope>
 <description>Creates a setter property inside a class in ES7 syntax</description>

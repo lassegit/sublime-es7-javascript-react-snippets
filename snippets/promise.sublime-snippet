@@ -1,8 +1,8 @@
 <snippet>
-<content><![CDATA[return new Promise((resolve, reject) => { 
-   ${1} 
- }) 
- ]]></content>
+<content><![CDATA[return new Promise((resolve, reject) => {
+  ${1}
+})
+]]></content>
 <tabTrigger>prom</tabTrigger>
 <scope>source.js</scope>
 <description>Creates and returns a new Promise in the standard ES7 syntax</description>

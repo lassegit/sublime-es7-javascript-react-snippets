@@ -1,6 +1,6 @@
 <snippet>
-<content><![CDATA[import React from 'react' 
- ]]></content>
+<content><![CDATA[import React from 'react'
+]]></content>
 <tabTrigger>imr</tabTrigger>
 <scope>source.js</scope>
 <description></description>

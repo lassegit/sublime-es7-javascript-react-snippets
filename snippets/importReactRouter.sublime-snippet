@@ -1,6 +1,6 @@
 <snippet>
-<content><![CDATA[import { BrowserRouter as Router, Route, Link } from 'react-router-dom' 
- ]]></content>
+<content><![CDATA[import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
+]]></content>
 <tabTrigger>imrr</tabTrigger>
 <scope>source.js</scope>
 <description></description>

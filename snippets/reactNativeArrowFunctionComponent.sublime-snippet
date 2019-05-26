@@ -1,17 +1,17 @@
 <snippet>
-<content><![CDATA[import React from 'react' 
- import { View, Text } from 'react-native' 
-  
- const ${1:${TM_FILENAME_BASE}} = () => { 
-   return ( 
-     <View> 
-       <Text>$0</Text> 
-     </View> 
-   ) 
- } 
-  
- export default ${1:${TM_FILENAME_BASE}} 
- ]]></content>
+<content><![CDATA[import React from 'react'
+import { View, Text } from 'react-native'
+
+const ${1:${TM_FILENAME/(\w+)\.js/\1/g}} = () => {
+  return (
+    <View>
+      <Text>$0</Text>
+    </View>
+  )
+}
+
+export default ${1:${TM_FILENAME/(\w+)\.js/\1/g}}
+]]></content>
 <tabTrigger>rnf</tabTrigger>
 <scope>source.js</scope>
 <description></description>

@@ -1,10 +1,10 @@
 <snippet>
-<content><![CDATA[useCallback( 
-   () => { 
-     ${1:callback} 
-   }, 
-   [${2:input}], 
- )]]></content>
+<content><![CDATA[useCallback(
+  () => {
+    ${1:callback}
+  },
+  [${2:input}],
+)]]></content>
 <tabTrigger>useCallback</tabTrigger>
 <scope>source.js</scope>
 <description></description>

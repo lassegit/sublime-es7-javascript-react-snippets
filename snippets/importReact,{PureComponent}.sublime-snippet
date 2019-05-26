@@ -1,6 +1,6 @@
 <snippet>
-<content><![CDATA[import React, { PureComponent } from 'react' 
- ]]></content>
+<content><![CDATA[import React, { PureComponent } from 'react'
+]]></content>
 <tabTrigger>imrpc</tabTrigger>
 <scope>source.js</scope>
 <description></description>

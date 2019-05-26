@@ -1,25 +1,25 @@
 <snippet>
-<content><![CDATA[import 'react-native' 
- import React from 'react' 
- import renderer from 'react-test-renderer' 
- import { Provider } from 'react-redux' 
-  
- import store from 'src/store' 
- import ${1:${TM_FILENAME_BASE}} from '../${1:${TM_FILENAME_BASE}}' 
-  
- describe('<${1:${TM_FILENAME_BASE}} />', () => { 
-   const defaultProps = {} 
-   const wrapper = renderer.create( 
-     <Provider store={store}> 
-       <${1:${TM_FILENAME_BASE}} {...defaultProps} /> 
-     </Provider>, 
-   ) 
-  
-   test('render', () => { 
-     expect(wrapper).toMatchSnapshot() 
-   }) 
- }) 
- ]]></content>
+<content><![CDATA[import 'react-native'
+import React from 'react'
+import renderer from 'react-test-renderer'
+import { Provider } from 'react-redux'
+
+import store from 'src/store'
+import ${1:${TM_FILENAME/(\w+)\.js/\1/g}} from '../${1:${TM_FILENAME/(\w+)\.js/\1/g}}'
+
+describe('<${1:${TM_FILENAME/(\w+)\.js/\1/g}} />', () => {
+  const defaultProps = {}
+  const wrapper = renderer.create(
+    <Provider store={store}>
+      <${1:${TM_FILENAME/(\w+)\.js/\1/g}} {...defaultProps} />
+    </Provider>,
+  )
+
+  test('render', () => {
+    expect(wrapper).toMatchSnapshot()
+  })
+})
+]]></content>
 <tabTrigger>snrtest</tabTrigger>
 <scope>source.js</scope>
 <description></description>

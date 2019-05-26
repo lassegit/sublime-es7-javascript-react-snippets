@@ -1,16 +1,16 @@
 <snippet>
-<content><![CDATA[import React, { Component } from 'react' 
-  
- export default class ${1:${TM_FILENAME_BASE}} extends Component { 
-   render() { 
-     return ( 
-       <div> 
-         $0 
-       </div> 
-     ) 
-   } 
- } 
- ]]></content>
+<content><![CDATA[import React, { Component } from 'react'
+
+export default class ${1:${TM_FILENAME/(\w+)\.js/\1/g}} extends Component {
+  render() {
+    return (
+      <div>
+        $0
+      </div>
+    )
+  }
+}
+]]></content>
 <tabTrigger>rcc</tabTrigger>
 <scope>source.js</scope>
 <description>Creates a React component class with ES7 module system</description>

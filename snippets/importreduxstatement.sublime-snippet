@@ -1,6 +1,6 @@
 <snippet>
-<content><![CDATA[import { connect } from 'react-redux' 
- ]]></content>
+<content><![CDATA[import { connect } from 'react-redux'
+]]></content>
 <tabTrigger>redux</tabTrigger>
 <scope>source.js</scope>
 <description></description>

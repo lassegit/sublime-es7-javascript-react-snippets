@@ -1,14 +1,14 @@
 <snippet>
-<content><![CDATA[import React from 'react' 
-  
- export default function ${1:${TM_FILENAME_BASE}}() { 
-   return ( 
-     <div> 
-       $0 
-     </div> 
-   ) 
- } 
- ]]></content>
+<content><![CDATA[import React from 'react'
+
+export default function ${1:${TM_FILENAME/(\w+)\.js/\1/g}}() {
+  return (
+    <div>
+      $0
+    </div>
+  )
+}
+]]></content>
 <tabTrigger>rfc</tabTrigger>
 <scope>source.js</scope>
 <description>Creates a React Functional Component with ES7 module system</description>

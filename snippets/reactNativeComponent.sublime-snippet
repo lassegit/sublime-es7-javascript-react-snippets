@@ -1,17 +1,17 @@
 <snippet>
-<content><![CDATA[import React, { Component } from 'react' 
- import { Text, View } from 'react-native' 
-  
- export default class ${1:${TM_FILENAME_BASE}} extends Component { 
-   render() { 
-     return ( 
-       <View> 
-         <Text> ${2:textInComponent} </Text> 
-       </View> 
-     ) 
-   } 
- } 
- ]]></content>
+<content><![CDATA[import React, { Component } from 'react'
+import { Text, View } from 'react-native'
+
+export default class ${1:${TM_FILENAME/(\w+)\.js/\1/g}} extends Component {
+  render() {
+    return (
+      <View>
+        <Text> ${2:textInComponent} </Text>
+      </View>
+    )
+  }
+}
+]]></content>
 <tabTrigger>rnc</tabTrigger>
 <scope>source.js</scope>
 <description></description>

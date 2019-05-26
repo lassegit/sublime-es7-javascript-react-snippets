@@ -1,32 +1,32 @@
 <snippet>
-<content><![CDATA[import React, { Component } from 'react' 
- import PropTypes from 'prop-types' 
- import { connect } from 'react-redux' 
+<content><![CDATA[import React, { Component } from 'react'
+import PropTypes from 'prop-types'
+import { connect } from 'react-redux'
+
+export class ${1:${TM_FILENAME/(\w+)\.js/\1/g}} extends Component {
+  static propTypes = {
+    ${2:prop}: ${3:PropTypes}
+  }
+
+  render() {
+    return (
+      <div>
+        $0
+      </div>
+    )
+  }
+}
+
+const mapStateToProps = (state) => ({
   
- export class ${1:${TM_FILENAME_BASE}} extends Component { 
-   static propTypes = { 
-     ${2:prop}: ${3:PropTypes} 
-   } 
+})
+
+const mapDispatchToProps = {
   
-   render() { 
-     return ( 
-       <div> 
-         $0 
-       </div> 
-     ) 
-   } 
- } 
-  
- const mapStateToProps = (state) => ({ 
-    
- }) 
-  
- const mapDispatchToProps = { 
-    
- } 
-  
- export default connect(mapStateToProps, mapDispatchToProps)(${1:${TM_FILENAME_BASE}}) 
- ]]></content>
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(${1:${TM_FILENAME/(\w+)\.js/\1/g}})
+]]></content>
 <tabTrigger>rcredux</tabTrigger>
 <scope>source.js</scope>
 <description>Creates a React component class with PropTypes with connected redux and ES7 module system</description>

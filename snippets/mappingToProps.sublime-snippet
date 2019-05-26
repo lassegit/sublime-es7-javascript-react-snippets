@@ -1,12 +1,12 @@
 <snippet>
-<content><![CDATA[const mapStateToProps = (state) => ({ 
-   ${1} 
- }) 
+<content><![CDATA[const mapStateToProps = (state) => ({
+  ${1}
+})
+
+const mapDispatchToProps = {
   
- const mapDispatchToProps = { 
-    
- } 
- ]]></content>
+}
+]]></content>
 <tabTrigger>reduxmap</tabTrigger>
 <scope>source.js</scope>
 <description></description>

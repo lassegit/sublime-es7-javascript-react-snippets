@@ -1,9 +1,9 @@
 <snippet>
-<content><![CDATA[useEffect(() => { 
-   return () => { 
-     ${1:effect} 
-   }; 
- }, [${2:input}])]]></content>
+<content><![CDATA[useEffect(() => {
+  return () => {
+    ${1:effect}
+  };
+}, [${2:input}])]]></content>
 <tabTrigger>useEffect</tabTrigger>
 <scope>source.js</scope>
 <description></description>

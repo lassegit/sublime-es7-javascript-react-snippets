@@ -1,8 +1,8 @@
 <snippet>
-<content><![CDATA[static propTypes = { 
- $0 
- } 
- ]]></content>
+<content><![CDATA[static propTypes = {
+$0
+}
+]]></content>
 <tabTrigger>ptypes</tabTrigger>
 <scope>source.js</scope>
 <description></description>

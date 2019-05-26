@@ -1,8 +1,8 @@
 <snippet>
-<content><![CDATA[test('should $1', () => { 
-   $0 
- }) 
- ]]></content>
+<content><![CDATA[test('should $1', () => {
+  $0
+})
+]]></content>
 <tabTrigger>test</tabTrigger>
 <scope>source.js</scope>
 <description>Testing `test` block</description>

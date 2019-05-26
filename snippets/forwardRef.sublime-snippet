@@ -1,6 +1,6 @@
 <snippet>
-<content><![CDATA[const ref = React.createRef() 
- ]]></content>
+<content><![CDATA[const ref = React.createRef()
+]]></content>
 <tabTrigger>fref</tabTrigger>
 <scope>source.js</scope>
 <description>Forward ref statement used inside component</description>

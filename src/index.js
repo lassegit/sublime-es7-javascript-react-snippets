@@ -11,7 +11,7 @@ const getContent = body => {
     sublimeContent = body;
   } else {
     // Some are stored as json arrays and needs to be reduced into a text snippet
-    sublimeContent = body.reduce((total, current) => `${total} \n ${current}`);
+    sublimeContent = body.reduce((total, current) => `${total}\n${current}`);
   }
   return `<content><![CDATA[${sublimeContent}]]></content>`;
 };
