@@ -1,7 +1,7 @@
 <snippet>
 <content><![CDATA[import React, { memo } from 'react'
 
-export default memo(function ${1:${TM_FILENAME/(\w+)\.js/\1/g}}() {
+export default memo(function ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}}() {
   return (
     <div>
       $0
@@ -11,5 +11,5 @@ export default memo(function ${1:${TM_FILENAME/(\w+)\.js/\1/g}}() {
 ]]></content>
 <tabTrigger>rmc</tabTrigger>
 <scope>source.js</scope>
-<description>Creates a React Memo Function Component with ES7 module system</description>
+<description>reactFunctionMemoComponent</description>
 </snippet>

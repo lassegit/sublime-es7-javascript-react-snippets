@@ -6,5 +6,5 @@
 ]]></content>
 <tabTrigger>rxaction</tabTrigger>
 <scope>source.js</scope>
-<description></description>
+<description>reduxAction</description>
 </snippet>

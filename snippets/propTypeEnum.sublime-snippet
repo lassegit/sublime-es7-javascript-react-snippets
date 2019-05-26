@@ -2,5 +2,5 @@
 <content><![CDATA[PropTypes.oneOf(['$0']),]]></content>
 <tabTrigger>pte</tabTrigger>
 <scope>source.js</scope>
-<description>Prop type limited to specific values by treating it as an enum</description>
+<description>propTypeEnum</description>
 </snippet>

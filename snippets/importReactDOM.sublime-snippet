@@ -3,5 +3,5 @@
 ]]></content>
 <tabTrigger>imrd</tabTrigger>
 <scope>source.js</scope>
-<description></description>
+<description>import ReactDOM</description>
 </snippet>

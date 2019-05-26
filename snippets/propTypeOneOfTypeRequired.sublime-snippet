@@ -4,5 +4,5 @@
 ]).isRequired,]]></content>
 <tabTrigger>ptetr</tabTrigger>
 <scope>source.js</scope>
-<description>An object that could be one of many types required</description>
+<description>propTypeOneOfTypeRequired</description>
 </snippet>

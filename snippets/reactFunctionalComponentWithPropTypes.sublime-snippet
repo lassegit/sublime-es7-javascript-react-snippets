@@ -2,7 +2,7 @@
 <content><![CDATA[import React from 'react'
 import PropTypes from 'prop-types'
 
-function ${1:${TM_FILENAME/(\w+)\.js/\1/g}}(props) {
+function ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}}(props) {
   return (
     <div>
       $0
@@ -10,14 +10,14 @@ function ${1:${TM_FILENAME/(\w+)\.js/\1/g}}(props) {
   )
 }
 
-${1:${TM_FILENAME/(\w+)\.js/\1/g}}.propTypes = {
+${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}}.propTypes = {
 
 }
 
-export default ${1:${TM_FILENAME/(\w+)\.js/\1/g}}
+export default ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}}
 
 ]]></content>
 <tabTrigger>rfcp</tabTrigger>
 <scope>source.js</scope>
-<description>Creates a React Functional Component with ES7 module system with PropTypes</description>
+<description>reactFunctionalComponentWithPropTypes</description>
 </snippet>

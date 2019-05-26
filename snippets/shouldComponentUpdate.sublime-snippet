@@ -5,5 +5,5 @@
 ]]></content>
 <tabTrigger>scu</tabTrigger>
 <scope>source.js</scope>
-<description>Invoked before rendering when new props or state are being received. </description>
+<description>shouldComponentUpdate</description>
 </snippet>

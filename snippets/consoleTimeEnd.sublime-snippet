@@ -2,5 +2,5 @@
 <content><![CDATA[console.timeEnd('${1:object}')]]></content>
 <tabTrigger>cte</tabTrigger>
 <scope>source.js</scope>
-<description>Console time end wrapper</description>
+<description>consoleTimeEnd</description>
 </snippet>

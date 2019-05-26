@@ -1,7 +1,7 @@
 <snippet>
 <content><![CDATA[import React from 'react'
 
-const ${1:${TM_FILENAME/(\w+)\.js/\1/g}} = () => {
+const ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}} = () => {
   return (
     <div>
       $0
@@ -9,9 +9,9 @@ const ${1:${TM_FILENAME/(\w+)\.js/\1/g}} = () => {
   )
 }
 
-export default ${1:${TM_FILENAME/(\w+)\.js/\1/g}}
+export default ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}}
 ]]></content>
 <tabTrigger>rafc,rafce</tabTrigger>
 <scope>source.js</scope>
-<description>Creates a React Arrow Function Component with ES7 module system</description>
+<description>reactArrowFunctionComponent</description>
 </snippet>

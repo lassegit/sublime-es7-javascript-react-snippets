@@ -2,5 +2,5 @@
 <content><![CDATA[PropTypes.number,]]></content>
 <tabTrigger>ptn</tabTrigger>
 <scope>source.js</scope>
-<description>Number prop type</description>
+<description>propTypeNumber</description>
 </snippet>

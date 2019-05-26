@@ -24,5 +24,5 @@ export default WrapperComponent => connect(mapStateToProps, mapDispatchToProps)(
 ]]></content>
 <tabTrigger>hocredux</tabTrigger>
 <scope>source.js</scope>
-<description></description>
+<description>hocComponentWithRedux</description>
 </snippet>

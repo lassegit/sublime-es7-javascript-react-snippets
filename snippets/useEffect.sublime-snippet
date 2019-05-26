@@ -6,5 +6,5 @@
 }, [${2:input}])]]></content>
 <tabTrigger>useEffect</tabTrigger>
 <scope>source.js</scope>
-<description></description>
+<description>useEffect</description>
 </snippet>

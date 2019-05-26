@@ -1,8 +1,8 @@
 <snippet>
-<content><![CDATA[import React, { Component } from 'react'
+<content><![CDATA[import React from 'react'
 import { Text, StyleSheet, View } from 'react-native'
 
-export default class ${1:${TM_FILENAME/(\w+)\.js/\1/g}} extends Component {
+export default class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}} extends React.Component {
   render() {
     return (
       <View>
@@ -16,5 +16,5 @@ const styles = StyleSheet.create({})
 ]]></content>
 <tabTrigger>rncs</tabTrigger>
 <scope>source.js</scope>
-<description></description>
+<description>reactNativeComponentWithStyles</description>
 </snippet>

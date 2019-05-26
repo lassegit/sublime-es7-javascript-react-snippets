@@ -5,5 +5,5 @@
 ]]></content>
 <tabTrigger>cwup</tabTrigger>
 <scope>source.js</scope>
-<description>DEPRECATED!!!. Invoked immediately before rendering when new props or state are being received.</description>
+<description>componentWillUpdate</description>
 </snippet>

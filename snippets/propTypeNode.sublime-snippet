@@ -2,5 +2,5 @@
 <content><![CDATA[PropTypes.node,]]></content>
 <tabTrigger>ptnd</tabTrigger>
 <scope>source.js</scope>
-<description>Anything that can be rendered: numbers, strings, elements or an array</description>
+<description>propTypeNode</description>
 </snippet>

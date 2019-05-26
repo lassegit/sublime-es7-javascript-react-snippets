@@ -2,5 +2,5 @@
 <content><![CDATA[PropTypes.any,]]></content>
 <tabTrigger>ptany</tabTrigger>
 <scope>source.js</scope>
-<description>Any prop type</description>
+<description>propTypeAny</description>
 </snippet>

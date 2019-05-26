@@ -5,5 +5,5 @@
 ]]></content>
 <tabTrigger>enf</tabTrigger>
 <scope>source.js</scope>
-<description>Export named function in ES7 syntax</description>
+<description>exportNamedFunction</description>
 </snippet>

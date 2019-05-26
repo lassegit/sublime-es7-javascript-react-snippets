@@ -5,5 +5,5 @@ export const ${1:selectorName} = state => state.${2:selector}
 ]]></content>
 <tabTrigger>rxselect</tabTrigger>
 <scope>source.js</scope>
-<description></description>
+<description>reduxSelector</description>
 </snippet>

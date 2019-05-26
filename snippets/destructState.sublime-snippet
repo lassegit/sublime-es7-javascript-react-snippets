@@ -2,5 +2,5 @@
 <content><![CDATA[const { $1 } = this.state]]></content>
 <tabTrigger>cs</tabTrigger>
 <scope>source.js</scope>
-<description>Creates and assigns a local variable using state destructing</description>
+<description>destructState</description>
 </snippet>

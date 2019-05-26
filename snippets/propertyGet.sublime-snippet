@@ -5,5 +5,5 @@
 ]]></content>
 <tabTrigger>pge</tabTrigger>
 <scope>source.js</scope>
-<description>Creates a getter property inside a class in ES7 syntax</description>
+<description>propertyGet</description>
 </snippet>

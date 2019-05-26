@@ -2,5 +2,5 @@
 <content><![CDATA[console.log(${1:object})]]></content>
 <tabTrigger>clg</tabTrigger>
 <scope>source.js</scope>
-<description>Displays a message in the console</description>
+<description>consoleLog</description>
 </snippet>

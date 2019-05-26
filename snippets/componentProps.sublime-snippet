@@ -2,5 +2,5 @@
 <content><![CDATA[this.props.$0]]></content>
 <tabTrigger>props</tabTrigger>
 <scope>source.js</scope>
-<description>Access component's props</description>
+<description>componentProps</description>
 </snippet>

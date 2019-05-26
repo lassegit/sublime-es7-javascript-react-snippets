@@ -199,26 +199,26 @@
     "prefix": "imrd",
     "body": ["import ReactDOM from 'react-dom'", ""]
   },
-  "import React, { Component }": {
+  "import React": {
     "prefix": "imrc",
-    "body": ["import React, { Component } from 'react'", ""]
+    "body": ["import React from 'react'", ""]
   },
-  "import React, { Component } & PropTypes": {
+  "import React & PropTypes": {
     "prefix": "imrcp",
     "body": [
-      "import React, { Component } from 'react'",
+      "import React from 'react'",
       "import PropTypes from 'prop-types'",
       ""
     ]
   },
-  "import React, { PureComponent }": {
+  "import React": {
     "prefix": "imrpc",
-    "body": ["import React, { PureComponent } from 'react'", ""]
+    "body": ["import React from 'react'", ""]
   },
-  "import React, { PureComponent } & PropTypes": {
+  "import React & PropTypes": {
     "prefix": "imrpcp",
     "body": [
-      "import React, { PureComponent } from 'react'",
+      "import React from 'react'",
       "import PropTypes from 'prop-types'",
       ""
     ]
@@ -253,9 +253,9 @@
   "reactClassCompoment": {
     "prefix": "rcc",
     "body": [
-      "import React, { Component } from 'react'",
+      "import React from 'react'",
       "",
-      "export default class ${1:${TM_FILENAME/(\\w+)\\.js/\\1/g}} extends Component {",
+      "export default class ${1:${TM_FILENAME/(.+)\\..+|.*/$1/:name}} extends React.Component {",
       "  render() {",
       "    return (",
       "      <div>",
@@ -271,9 +271,9 @@
   "reactClassExportComponent": {
     "prefix": "rce",
     "body": [
-      "import React, { Component } from 'react'",
+      "import React from 'react'",
       "",
-      "export class ${1:${TM_FILENAME/(\\w+)\\.js/\\1/g}} extends Component {",
+      "export class ${1:${TM_FILENAME/(.+)\\..+|.*/$1/:name}} extends React.Component {",
       "  render() {",
       "    return (",
       "      <div>",
@@ -283,7 +283,7 @@
       "  }",
       "}",
       "",
-      "export default ${1:${TM_FILENAME/(\\w+)\\.js/\\1/g}}",
+      "export default ${1:${TM_FILENAME/(.+)\\..+|.*/$1/:name}}",
       ""
     ],
     "description": "Creates a React component class with ES7 module system"
@@ -293,7 +293,7 @@
     "body": [
       "import React from 'react'",
       "",
-      "function ${1:${TM_FILENAME/(\\w+)\\.js/\\1/g}}() {",
+      "function ${1:${TM_FILENAME/(.+)\\..+|.*/$1/:name}}() {",
       "  return (",
       "    <div>",
       "      $0",
@@ -301,7 +301,7 @@
       "  )",
       "}",
       "",
-      "export default ${1:${TM_FILENAME/(\\w+)\\.js/\\1/g}}",
+      "export default ${1:${TM_FILENAME/(.+)\\..+|.*/$1/:name}}",
       ""
     ],
     "description": "Creates a React Functional Component with ES7 module system"
@@ -311,7 +311,7 @@
     "body": [
       "import React from 'react'",
       "",
-      "export default function ${1:${TM_FILENAME/(\\w+)\\.js/\\1/g}}() {",
+      "export default function ${1:${TM_FILENAME/(.+)\\..+|.*/$1/:name}}() {",
       "  return (",
       "    <div>",
       "      $0",
@@ -328,7 +328,7 @@
       "import React from 'react'",
       "import PropTypes from 'prop-types'",
       "",
-      "function ${1:${TM_FILENAME/(\\w+)\\.js/\\1/g}}(props) {",
+      "function ${1:${TM_FILENAME/(.+)\\..+|.*/$1/:name}}(props) {",
       "  return (",
       "    <div>",
       "      $0",
@@ -336,11 +336,11 @@
       "  )",
       "}",
       "",
-      "${1:${TM_FILENAME/(\\w+)\\.js/\\1/g}}.propTypes = {",
+      "${1:${TM_FILENAME/(.+)\\..+|.*/$1/:name}}.propTypes = {",
       "",
       "}",
       "",
-      "export default ${1:${TM_FILENAME/(\\w+)\\.js/\\1/g}}",
+      "export default ${1:${TM_FILENAME/(.+)\\..+|.*/$1/:name}}",
       "",
       ""
     ],
@@ -351,7 +351,7 @@
     "body": [
       "import React from 'react'",
       "",
-      "const ${1:${TM_FILENAME/(\\w+)\\.js/\\1/g}} = () => {",
+      "const ${1:${TM_FILENAME/(.+)\\..+|.*/$1/:name}} = () => {",
       "  return (",
       "    <div>",
       "      $0",
@@ -359,7 +359,7 @@
       "  )",
       "}",
       "",
-      "export default ${1:${TM_FILENAME/(\\w+)\\.js/\\1/g}}",
+      "export default ${1:${TM_FILENAME/(.+)\\..+|.*/$1/:name}}",
       ""
     ],
     "description": "Creates a React Arrow Function Component with ES7 module system"
@@ -370,7 +370,7 @@
       "import React from 'react'",
       "import PropTypes from 'prop-types'",
       "",
-      "const ${1:${TM_FILENAME/(\\w+)\\.js/\\1/g}} = props => {",
+      "const ${1:${TM_FILENAME/(.+)\\..+|.*/$1/:name}} = props => {",
       "  return (",
       "    <div>",
       "      $0",
@@ -378,11 +378,11 @@
       "  )",
       "}",
       "",
-      "${1:${TM_FILENAME/(\\w+)\\.js/\\1/g}}.propTypes = {",
+      "${1:${TM_FILENAME/(.+)\\..+|.*/$1/:name}}.propTypes = {",
       "",
       "}",
       "",
-      "export default ${1:${TM_FILENAME/(\\w+)\\.js/\\1/g}}",
+      "export default ${1:${TM_FILENAME/(.+)\\..+|.*/$1/:name}}",
       ""
     ],
     "description": "Creates a React Arrow Function Component with ES7 module system with PropTypes"
@@ -390,10 +390,10 @@
   "reactClassExportComponentWithPropTypes": {
     "prefix": "rcep",
     "body": [
-      "import React, { Component } from 'react'",
+      "import React from 'react'",
       "import PropTypes from 'prop-types'",
       "",
-      "export class ${1:${TM_FILENAME/(\\w+)\\.js/\\1/g}} extends Component {",
+      "export class ${1:${TM_FILENAME/(.+)\\..+|.*/$1/:name}} extends React.Component {",
       "  static propTypes = {",
       "",
       "  }",
@@ -407,7 +407,7 @@
       "  }",
       "}",
       "",
-      "export default ${1:${TM_FILENAME/(\\w+)\\.js/\\1/g}}",
+      "export default ${1:${TM_FILENAME/(.+)\\..+|.*/$1/:name}}",
       ""
     ],
     "description": "Creates a React component class with ES7 module system"
@@ -415,9 +415,9 @@
   "reactClassPureComponent": {
     "prefix": "rpc",
     "body": [
-      "import React, { PureComponent } from 'react'",
+      "import React from 'react'",
       "",
-      "export default class ${1:${TM_FILENAME/(\\w+)\\.js/\\1/g}} extends PureComponent {",
+      "export default class ${1:${TM_FILENAME/(.+)\\..+|.*/$1/:name}} extends React.PureComponent {",
       "  render() {",
       "    return (",
       "      <div>",
@@ -433,9 +433,9 @@
   "reactClassExportPureComponent": {
     "prefix": "rpce",
     "body": [
-      "import React, { PureComponent } from 'react'",
+      "import React from 'react'",
       "",
-      "export class ${1:${TM_FILENAME/(\\w+)\\.js/\\1/g}} extends PureComponent {",
+      "export class ${1:${TM_FILENAME/(.+)\\..+|.*/$1/:name}} extends React.PureComponent {",
       "  render() {",
       "    return (",
       "      <div>",
@@ -445,7 +445,7 @@
       "  }",
       "}",
       "",
-      "export default ${1:$TM_FILENAME/(\\w+)\\.js/\\1/g}",
+      "export default ${1:$TM_FILENAME/(.+)\\..+|.*/$1/:name}",
       ""
     ],
     "description": "Creates a React pure component class with ES7 module system export"
@@ -453,10 +453,10 @@
   "reactClassPureComponentWithPropTypes": {
     "prefix": "rpcp",
     "body": [
-      "import React, { PureComponent } from 'react'",
+      "import React from 'react'",
       "import PropTypes from 'prop-types'",
       "",
-      "export default class ${1:${TM_FILENAME/(\\w+)\\.js/\\1/g}} extends PureComponent {",
+      "export default class ${1:${TM_FILENAME/(.+)\\..+|.*/$1/:name}} extends React.PureComponent {",
       "  static propTypes = {",
       "",
       "  }",
@@ -478,7 +478,7 @@
     "body": [
       "import React, { memo } from 'react'",
       "",
-      "export default memo(function ${1:${TM_FILENAME/(\\w+)\\.js/\\1/g}}() {",
+      "export default memo(function ${1:${TM_FILENAME/(.+)\\..+|.*/$1/:name}}() {",
       "  return (",
       "    <div>",
       "      $0",
@@ -495,7 +495,7 @@
       "import React, { memo } from 'react'",
       "import PropTypes from 'prop-types'",
       "",
-      "const ${1:${TM_FILENAME/(\\w+)\\.js/\\1/g}} = memo(function ${1:${TM_FILENAME/(\\w+)\\.js/\\1/g}}(props) {",
+      "const ${1:${TM_FILENAME/(.+)\\..+|.*/$1/:name}} = memo(function ${1:${TM_FILENAME/(.+)\\..+|.*/$1/:name}}(props) {",
       "  return (",
       "    <div>",
       "      $0",
@@ -503,11 +503,11 @@
       "  )",
       "})",
       "",
-      "${1:${TM_FILENAME/(\\w+)\\.js/\\1/g}}.propTypes = {",
+      "${1:${TM_FILENAME/(.+)\\..+|.*/$1/:name}}.propTypes = {",
       "",
       "}",
       "",
-      "export default ${1:${TM_FILENAME/(\\w+)\\.js/\\1/g}}",
+      "export default ${1:${TM_FILENAME/(.+)\\..+|.*/$1/:name}}",
       ""
     ],
     "description": "Creates a React Memo Function Component with ES7 module system with PropTypes"
@@ -515,10 +515,10 @@
   "reactClassCompomentPropTypes": {
     "prefix": "rccp",
     "body": [
-      "import React, { Component } from 'react'",
+      "import React from 'react'",
       "import PropTypes from 'prop-types'",
       "",
-      "export default class ${1:${TM_FILENAME/(\\w+)\\.js/\\1/g}} extends Component {",
+      "export default class ${1:${TM_FILENAME/(.+)\\..+|.*/$1/:name}} extends React.Component {",
       "  static propTypes = {",
       "    ${2:prop}: ${3:PropTypes}",
       "  }",
@@ -538,11 +538,11 @@
   "reactClassCompomentRedux": {
     "prefix": "rcredux",
     "body": [
-      "import React, { Component } from 'react'",
+      "import React from 'react'",
       "import PropTypes from 'prop-types'",
       "import { connect } from 'react-redux'",
       "",
-      "export class ${1:${TM_FILENAME/(\\w+)\\.js/\\1/g}} extends Component {",
+      "export class ${1:${TM_FILENAME/(.+)\\..+|.*/$1/:name}} extends React.Component {",
       "  static propTypes = {",
       "    ${2:prop}: ${3:PropTypes}",
       "  }",
@@ -564,7 +564,7 @@
       "  ",
       "}",
       "",
-      "export default connect(mapStateToProps, mapDispatchToProps)(${1:${TM_FILENAME/(\\w+)\\.js/\\1/g}})",
+      "export default connect(mapStateToProps, mapDispatchToProps)(${1:${TM_FILENAME/(.+)\\..+|.*/$1/:name}})",
       ""
     ],
     "description": "Creates a React component class with PropTypes with connected redux and ES7 module system"
@@ -749,10 +749,10 @@
   "reactNativeComponent": {
     "prefix": "rnc",
     "body": [
-      "import React, { Component } from 'react'",
+      "import React from 'react'",
       "import { Text, View } from 'react-native'",
       "",
-      "export default class ${1:${TM_FILENAME/(\\w+)\\.js/\\1/g}} extends Component {",
+      "export default class ${1:${TM_FILENAME/(.+)\\..+|.*/$1/:name}} extends React.Component {",
       "  render() {",
       "    return (",
       "      <View>",
@@ -767,10 +767,10 @@
   "reactNativeComponentWithStyles": {
     "prefix": "rncs",
     "body": [
-      "import React, { Component } from 'react'",
+      "import React from 'react'",
       "import { Text, StyleSheet, View } from 'react-native'",
       "",
-      "export default class ${1:${TM_FILENAME/(\\w+)\\.js/\\1/g}} extends Component {",
+      "export default class ${1:${TM_FILENAME/(.+)\\..+|.*/$1/:name}} extends React.Component {",
       "  render() {",
       "    return (",
       "      <View>",
@@ -787,10 +787,10 @@
   "reactNativeComponentExport": {
     "prefix": "rnce",
     "body": [
-      "import React, { Component } from 'react'",
+      "import React from 'react'",
       "import { Text, View } from 'react-native'",
       "",
-      "export class ${1:${TM_FILENAME/(\\w+)\\.js/\\1/g}} extends Component {",
+      "export class ${1:${TM_FILENAME/(.+)\\..+|.*/$1/:name}} extends React.Component {",
       "  render() {",
       "    return (",
       "      <View>",
@@ -800,17 +800,17 @@
       "  }",
       "}",
       "",
-      "export default ${1:${TM_FILENAME/(\\w+)\\.js/\\1/g}}",
+      "export default ${1:${TM_FILENAME/(.+)\\..+|.*/$1/:name}}",
       ""
     ]
   },
   "reactNativePureComponent": {
     "prefix": "rnpc",
     "body": [
-      "import React, { PureComponent } from 'react'",
+      "import React from 'react'",
       "import { Text, View } from 'react-native'",
       "",
-      "export default class ${1:${TM_FILENAME/(\\w+)\\.js/\\1/g}} extends PureComponent {",
+      "export default class ${1:${TM_FILENAME/(.+)\\..+|.*/$1/:name}} extends React.PureComponent {",
       "  render() {",
       "    return (",
       "      <View>",
@@ -825,10 +825,10 @@
   "reactNativePureComponentExport": {
     "prefix": "rnpce",
     "body": [
-      "import React, { PureComponent } from 'react'",
+      "import React from 'react'",
       "import { Text, View } from 'react-native'",
       "",
-      "export class ${1:${TM_FILENAME/(\\w+)\\.js/\\1/g}} extends PureComponent {",
+      "export class ${1:${TM_FILENAME/(.+)\\..+|.*/$1/:name}} extends React.PureComponent {",
       "  render() {",
       "    return (",
       "      <View>",
@@ -838,19 +838,19 @@
       "  }",
       "}",
       "",
-      "export default ${1:${TM_FILENAME/(\\w+)\\.js/\\1/g}}",
+      "export default ${1:${TM_FILENAME/(.+)\\..+|.*/$1/:name}}",
       ""
     ]
   },
   "reactNativeClassComponentRedux": {
     "prefix": "rncredux",
     "body": [
-      "import React, { Component } from 'react'",
+      "import React from 'react'",
       "import { View, Text } from 'react-native'",
       "import PropTypes from 'prop-types'",
       "import { connect } from 'react-redux'",
       "",
-      "export class ${1:${TM_FILENAME/(\\w+)\\.js/\\1/g}} extends Component {",
+      "export class ${1:${TM_FILENAME/(.+)\\..+|.*/$1/:name}} extends React.Component {",
       "  static propTypes = {",
       "    ${2:prop}: ${3:PropTypes}",
       "  }",
@@ -872,7 +872,7 @@
       "  ",
       "}",
       "",
-      "export default connect(mapStateToProps, mapDispatchToProps)(${1:${TM_FILENAME/(\\w+)\\.js/\\1/g}})",
+      "export default connect(mapStateToProps, mapDispatchToProps)(${1:${TM_FILENAME/(.+)\\..+|.*/$1/:name}})",
       ""
     ],
     "description": "Creates a React Native component class with PropTypes with connected redux and ES7 module system"
@@ -883,7 +883,7 @@
       "import React from 'react'",
       "import { View, Text } from 'react-native'",
       "",
-      "const ${1:${TM_FILENAME/(\\w+)\\.js/\\1/g}} = () => {",
+      "const ${1:${TM_FILENAME/(.+)\\..+|.*/$1/:name}} = () => {",
       "  return (",
       "    <View>",
       "      <Text>$0</Text>",
@@ -891,7 +891,7 @@
       "  )",
       "}",
       "",
-      "export default ${1:${TM_FILENAME/(\\w+)\\.js/\\1/g}}",
+      "export default ${1:${TM_FILENAME/(.+)\\..+|.*/$1/:name}}",
       ""
     ]
   },
@@ -1083,11 +1083,11 @@
       "import React from 'react'",
       "import renderer from 'react-test-renderer'",
       "",
-      "import { ${1:${TM_FILENAME/(\\w+)\\.js/\\1/g}} } from '../${1:${TM_FILENAME/(\\w+)\\.js/\\1/g}}'",
+      "import { ${1:${TM_FILENAME/(.+)\\..+|.*/$1/:name}} } from '../${1:${TM_FILENAME/(.+)\\..+|.*/$1/:name}}'",
       "",
-      "describe('<${1:${TM_FILENAME/(\\w+)\\.js/\\1/g}} />', () => {",
+      "describe('<${1:${TM_FILENAME/(.+)\\..+|.*/$1/:name}} />', () => {",
       "  const defaultProps = {}",
-      "  const wrapper = renderer.create(<${1:${TM_FILENAME/(\\w+)\\.js/\\1/g}} {...defaultProps} />)",
+      "  const wrapper = renderer.create(<${1:${TM_FILENAME/(.+)\\..+|.*/$1/:name}} {...defaultProps} />)",
       "",
       "  test('render', () => {",
       "    expect(wrapper).toMatchSnapshot()",
@@ -1103,11 +1103,11 @@
       "import React from 'react'",
       "import renderer from 'react-test-renderer'",
       "",
-      "import ${1:${TM_FILENAME/(\\w+)\\.js/\\1/g}} from '../${1:${TM_FILENAME/(\\w+)\\.js/\\1/g}}'",
+      "import ${1:${TM_FILENAME/(.+)\\..+|.*/$1/:name}} from '../${1:${TM_FILENAME/(.+)\\..+|.*/$1/:name}}'",
       "",
-      "describe('<${1:${TM_FILENAME/(\\w+)\\.js/\\1/g}} />', () => {",
+      "describe('<${1:${TM_FILENAME/(.+)\\..+|.*/$1/:name}} />', () => {",
       "  const defaultProps = {}",
-      "  const wrapper = renderer.create(<${1:${TM_FILENAME/(\\w+)\\.js/\\1/g}} {...defaultProps} />)",
+      "  const wrapper = renderer.create(<${1:${TM_FILENAME/(.+)\\..+|.*/$1/:name}} {...defaultProps} />)",
       "",
       "  test('render', () => {",
       "    expect(wrapper).toMatchSnapshot()",
@@ -1124,13 +1124,13 @@
       "import { Provider } from 'react-redux'",
       "",
       "import store from 'src/store'",
-      "import { ${1:${TM_FILENAME/(\\w+)\\.js/\\1/g}} } from '../${1:${TM_FILENAME/(\\w+)\\.js/\\1/g}}'",
+      "import { ${1:${TM_FILENAME/(.+)\\..+|.*/$1/:name}} } from '../${1:${TM_FILENAME/(.+)\\..+|.*/$1/:name}}'",
       "",
-      "describe('<${1:${TM_FILENAME/(\\w+)\\.js/\\1/g}} />', () => {",
+      "describe('<${1:${TM_FILENAME/(.+)\\..+|.*/$1/:name}} />', () => {",
       "  const defaultProps = {}",
       "  const wrapper = renderer.create(",
       "    <Provider store={store}>",
-      "     <${1:${TM_FILENAME/(\\w+)\\.js/\\1/g}} {...defaultProps} />",
+      "     <${1:${TM_FILENAME/(.+)\\..+|.*/$1/:name}} {...defaultProps} />",
       "    </Provider>,",
       "  )",
       "",
@@ -1151,13 +1151,13 @@
       "import { Provider } from 'react-redux'",
       "",
       "import store from 'src/store'",
-      "import ${1:${TM_FILENAME/(\\w+)\\.js/\\1/g}} from '../${1:${TM_FILENAME/(\\w+)\\.js/\\1/g}}'",
+      "import ${1:${TM_FILENAME/(.+)\\..+|.*/$1/:name}} from '../${1:${TM_FILENAME/(.+)\\..+|.*/$1/:name}}'",
       "",
-      "describe('<${1:${TM_FILENAME/(\\w+)\\.js/\\1/g}} />', () => {",
+      "describe('<${1:${TM_FILENAME/(.+)\\..+|.*/$1/:name}} />', () => {",
       "  const defaultProps = {}",
       "  const wrapper = renderer.create(",
       "    <Provider store={store}>",
-      "      <${1:${TM_FILENAME/(\\w+)\\.js/\\1/g}} {...defaultProps} />",
+      "      <${1:${TM_FILENAME/(.+)\\..+|.*/$1/:name}} {...defaultProps} />",
       "    </Provider>,",
       "  )",
       "",
@@ -1177,7 +1177,7 @@
     "body": [
       "export default compose(",
       "  graphql(${1:queryOrMutation}, { name: ${2:name} }),",
-      ")(${1:${TM_FILENAME/(\\w+)\\.js/\\1/g}})"
+      ")(${1:${TM_FILENAME/(.+)\\..+|.*/$1/:name}})"
     ]
   },
   "hocComponentWithRedux": {

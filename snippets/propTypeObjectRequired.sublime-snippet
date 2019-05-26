@@ -2,5 +2,5 @@
 <content><![CDATA[PropTypes.object.isRequired,]]></content>
 <tabTrigger>ptor</tabTrigger>
 <scope>source.js</scope>
-<description>Object prop type required</description>
+<description>propTypeObjectRequired</description>
 </snippet>

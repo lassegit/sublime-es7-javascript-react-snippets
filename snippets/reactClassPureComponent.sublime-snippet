@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[import React, { PureComponent } from 'react'
+<content><![CDATA[import React from 'react'
 
-export default class ${1:${TM_FILENAME/(\w+)\.js/\1/g}} extends PureComponent {
+export default class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}} extends React.PureComponent {
   render() {
     return (
       <div>
@@ -13,5 +13,5 @@ export default class ${1:${TM_FILENAME/(\w+)\.js/\1/g}} extends PureComponent {
 ]]></content>
 <tabTrigger>rpc</tabTrigger>
 <scope>source.js</scope>
-<description>Creates a React pure component class with ES7 module system</description>
+<description>reactClassPureComponent</description>
 </snippet>

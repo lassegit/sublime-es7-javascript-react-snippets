@@ -4,5 +4,5 @@
 }).isRequired,]]></content>
 <tabTrigger>ptshr</tabTrigger>
 <scope>source.js</scope>
-<description>An object taking on a particular shape required</description>
+<description>propTypeShapeRequired</description>
 </snippet>

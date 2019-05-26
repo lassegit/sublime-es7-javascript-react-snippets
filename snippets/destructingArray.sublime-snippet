@@ -2,5 +2,5 @@
 <content><![CDATA[const [${1:propertyName}] = ${2:arrayToDestruct}]]></content>
 <tabTrigger>dar</tabTrigger>
 <scope>source.js</scope>
-<description>Creates and assigns a local variable using array destructing</description>
+<description>destructingArray</description>
 </snippet>

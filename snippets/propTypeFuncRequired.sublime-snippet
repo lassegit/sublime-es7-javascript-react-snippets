@@ -2,5 +2,5 @@
 <content><![CDATA[PropTypes.func.isRequired,]]></content>
 <tabTrigger>ptfr</tabTrigger>
 <scope>source.js</scope>
-<description>Func prop type required</description>
+<description>propTypeFuncRequired</description>
 </snippet>

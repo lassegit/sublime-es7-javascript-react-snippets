@@ -8,5 +8,5 @@
 }]]></content>
 <tabTrigger>ren</tabTrigger>
 <scope>source.js</scope>
-<description>Basic render.</description>
+<description>componentRender</description>
 </snippet>

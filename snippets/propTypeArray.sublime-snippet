@@ -2,5 +2,5 @@
 <content><![CDATA[PropTypes.array,]]></content>
 <tabTrigger>pta</tabTrigger>
 <scope>source.js</scope>
-<description>Array prop type</description>
+<description>propTypeArray</description>
 </snippet>

@@ -2,5 +2,5 @@
 <content><![CDATA[PropTypes.element,]]></content>
 <tabTrigger>ptel</tabTrigger>
 <scope>source.js</scope>
-<description>React element prop type</description>
+<description>propTypeElement</description>
 </snippet>

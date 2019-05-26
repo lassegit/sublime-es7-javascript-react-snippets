@@ -5,5 +5,5 @@
 ]]></content>
 <tabTrigger>cwr</tabTrigger>
 <scope>source.js</scope>
-<description>DEPRECATED!!!. Invoked when a component is receiving new props. This method is not called for the initial render.</description>
+<description>componentWillReceiveProps</description>
 </snippet>

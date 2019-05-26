@@ -1,10 +1,10 @@
 <snippet>
-<content><![CDATA[import React, { Component } from 'react'
+<content><![CDATA[import React from 'react'
 import { View, Text } from 'react-native'
 import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
 
-export class ${1:${TM_FILENAME/(\w+)\.js/\1/g}} extends Component {
+export class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}} extends React.Component {
   static propTypes = {
     ${2:prop}: ${3:PropTypes}
   }
@@ -26,9 +26,9 @@ const mapDispatchToProps = {
   
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(${1:${TM_FILENAME/(\w+)\.js/\1/g}})
+export default connect(mapStateToProps, mapDispatchToProps)(${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}})
 ]]></content>
 <tabTrigger>rncredux</tabTrigger>
 <scope>source.js</scope>
-<description>Creates a React Native component class with PropTypes with connected redux and ES7 module system</description>
+<description>reactNativeClassComponentRedux</description>
 </snippet>

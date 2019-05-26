@@ -1,8 +1,8 @@
 <snippet>
-<content><![CDATA[import React, { Component } from 'react'
+<content><![CDATA[import React from 'react'
 import { Text, View } from 'react-native'
 
-export default class ${1:${TM_FILENAME/(\w+)\.js/\1/g}} extends Component {
+export default class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}} extends React.Component {
   render() {
     return (
       <View>
@@ -14,5 +14,5 @@ export default class ${1:${TM_FILENAME/(\w+)\.js/\1/g}} extends Component {
 ]]></content>
 <tabTrigger>rnc</tabTrigger>
 <scope>source.js</scope>
-<description></description>
+<description>reactNativeComponent</description>
 </snippet>

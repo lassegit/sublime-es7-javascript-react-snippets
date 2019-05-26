@@ -2,5 +2,5 @@
 <content><![CDATA[console.trace(${1:object})]]></content>
 <tabTrigger>ctr</tabTrigger>
 <scope>source.js</scope>
-<description>Prints a stack trace from the point where the method was called</description>
+<description>consoleTrace</description>
 </snippet>

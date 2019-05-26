@@ -2,5 +2,5 @@
 <content><![CDATA[console.error(${1:object})]]></content>
 <tabTrigger>cer</tabTrigger>
 <scope>source.js</scope>
-<description>Displays a message in the console and also includes a stack trace from where the method was called</description>
+<description>consoleError</description>
 </snippet>

@@ -5,5 +5,5 @@
 ]]></content>
 <tabTrigger>gsbu</tabTrigger>
 <scope>source.js</scope>
-<description>Called right before mutations are made (e.g. before the DOM is updated)</description>
+<description>getSnapshotBeforeUpdate</description>
 </snippet>

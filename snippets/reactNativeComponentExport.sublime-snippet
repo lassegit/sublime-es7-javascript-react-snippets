@@ -1,8 +1,8 @@
 <snippet>
-<content><![CDATA[import React, { Component } from 'react'
+<content><![CDATA[import React from 'react'
 import { Text, View } from 'react-native'
 
-export class ${1:${TM_FILENAME/(\w+)\.js/\1/g}} extends Component {
+export class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}} extends React.Component {
   render() {
     return (
       <View>
@@ -12,9 +12,9 @@ export class ${1:${TM_FILENAME/(\w+)\.js/\1/g}} extends Component {
   }
 }
 
-export default ${1:${TM_FILENAME/(\w+)\.js/\1/g}}
+export default ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}}
 ]]></content>
 <tabTrigger>rnce</tabTrigger>
 <scope>source.js</scope>
-<description></description>
+<description>reactNativeComponentExport</description>
 </snippet>

@@ -2,5 +2,5 @@
 <content><![CDATA[this.state.$0]]></content>
 <tabTrigger>state</tabTrigger>
 <scope>source.js</scope>
-<description></description>
+<description>componentState</description>
 </snippet>

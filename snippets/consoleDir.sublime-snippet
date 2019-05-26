@@ -2,5 +2,5 @@
 <content><![CDATA[console.dir(${1:object})]]></content>
 <tabTrigger>cdi</tabTrigger>
 <scope>source.js</scope>
-<description>Prints a JavaScript representation of the specified object</description>
+<description>consoleDir</description>
 </snippet>

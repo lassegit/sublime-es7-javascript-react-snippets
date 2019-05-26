@@ -2,5 +2,5 @@
 <content><![CDATA[console.log('${1:object}', ${1:object})]]></content>
 <tabTrigger>clo</tabTrigger>
 <scope>source.js</scope>
-<description>Logs property with name.</description>
+<description>consoleLogObject</description>
 </snippet>

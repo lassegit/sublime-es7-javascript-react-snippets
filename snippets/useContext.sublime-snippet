@@ -2,5 +2,5 @@
 <content><![CDATA[const ${1:context} = useContext(${2:contextValue})]]></content>
 <tabTrigger>useContext</tabTrigger>
 <scope>source.js</scope>
-<description></description>
+<description>useContext</description>
 </snippet>

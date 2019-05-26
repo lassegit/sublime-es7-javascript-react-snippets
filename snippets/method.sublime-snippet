@@ -5,5 +5,5 @@
 ]]></content>
 <tabTrigger>met</tabTrigger>
 <scope>source.js</scope>
-<description>Creates a method inside a class in ES7 syntax</description>
+<description>method</description>
 </snippet>

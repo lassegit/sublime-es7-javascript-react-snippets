@@ -2,5 +2,5 @@
 <content><![CDATA[export const ${1:constantName} = '${1:constantName}']]></content>
 <tabTrigger>rxconst</tabTrigger>
 <scope>source.js</scope>
-<description></description>
+<description>reduxConst</description>
 </snippet>

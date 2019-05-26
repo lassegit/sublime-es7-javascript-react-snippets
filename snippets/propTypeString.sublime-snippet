@@ -2,5 +2,5 @@
 <content><![CDATA[PropTypes.string,]]></content>
 <tabTrigger>pts</tabTrigger>
 <scope>source.js</scope>
-<description>String prop type</description>
+<description>propTypeString</description>
 </snippet>

@@ -5,5 +5,5 @@
 ]]></content>
 <tabTrigger>sti</tabTrigger>
 <scope>source.js</scope>
-<description>Executes the given function at specified intervals in ES7 syntax</description>
+<description>setInterval</description>
 </snippet>

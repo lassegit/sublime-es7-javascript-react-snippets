@@ -2,5 +2,5 @@
 <content><![CDATA[export { ${2:originalName} as ${3:alias} } from '${1:module}'$0]]></content>
 <tabTrigger>exa</tabTrigger>
 <scope>source.js</scope>
-<description></description>
+<description>exportAs</description>
 </snippet>

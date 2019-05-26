@@ -31,8 +31,7 @@ const getScope = () => `<scope>source.js</scope>`;
  * Get the description field
  * @param  {string} description
  */
-const getDescription = description =>
-  `<description>${description || ''}</description>`;
+const getDescription = key => `<description>${key}</description>`;
 
 /**
  * Putting the xml tags togehter in the sublime snippet format
@@ -53,7 +52,7 @@ ${description}
  * @param  {string} key
  */
 const getFilename = key => {
-  const sublimeFilename = key.replace(/ /g, '');
+  const sublimeFilename = key.replace(/ /g, '').replace(/[^\w.]/g, '');
   return `${sublimeFilename}.sublime-snippet`;
 };
 
@@ -70,7 +69,7 @@ const generateSnippets = () => {
       const sublimeContent = getContent(body);
       const sublimeTabTrigger = getTabTrigger(prefix);
       const sublimeScope = getScope();
-      const sublimeDescription = getDescription(description);
+      const sublimeDescription = getDescription(key);
       const sublimeSnippet = getSnippet(
         sublimeContent,
         sublimeTabTrigger,

@@ -2,5 +2,5 @@
 <content><![CDATA[import { $2 } from '${1:module}'$0]]></content>
 <tabTrigger>imd</tabTrigger>
 <scope>source.js</scope>
-<description></description>
+<description>importDestructing</description>
 </snippet>

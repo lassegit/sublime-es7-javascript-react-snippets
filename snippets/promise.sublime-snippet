@@ -5,5 +5,5 @@
 ]]></content>
 <tabTrigger>prom</tabTrigger>
 <scope>source.js</scope>
-<description>Creates and returns a new Promise in the standard ES7 syntax</description>
+<description>promise</description>
 </snippet>

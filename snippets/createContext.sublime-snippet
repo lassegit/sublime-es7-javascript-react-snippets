@@ -3,5 +3,5 @@
 ]]></content>
 <tabTrigger>rcontext</tabTrigger>
 <scope>source.js</scope>
-<description>Create React context</description>
+<description>createContext</description>
 </snippet>

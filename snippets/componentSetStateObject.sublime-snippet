@@ -2,5 +2,5 @@
 <content><![CDATA[this.setState({$0})]]></content>
 <tabTrigger>sst</tabTrigger>
 <scope>source.js</scope>
-<description>Performs a shallow merge of nextState into current state</description>
+<description>componentSetStateObject</description>
 </snippet>

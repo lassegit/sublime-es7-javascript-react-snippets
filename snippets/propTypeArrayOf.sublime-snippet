@@ -2,5 +2,5 @@
 <content><![CDATA[PropTypes.arrayOf($0),]]></content>
 <tabTrigger>ptao</tabTrigger>
 <scope>source.js</scope>
-<description>An array of a certain type</description>
+<description>propTypeArrayOf</description>
 </snippet>

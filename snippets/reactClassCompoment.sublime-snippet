@@ -1,7 +1,7 @@
 <snippet>
-<content><![CDATA[import React, { Component } from 'react'
+<content><![CDATA[import React from 'react'
 
-export default class ${1:${TM_FILENAME/(\w+)\.js/\1/g}} extends Component {
+export default class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}} extends React.Component {
   render() {
     return (
       <div>
@@ -13,5 +13,5 @@ export default class ${1:${TM_FILENAME/(\w+)\.js/\1/g}} extends Component {
 ]]></content>
 <tabTrigger>rcc</tabTrigger>
 <scope>source.js</scope>
-<description>Creates a React component class with ES7 module system</description>
+<description>reactClassCompoment</description>
 </snippet>

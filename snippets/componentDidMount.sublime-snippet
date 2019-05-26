@@ -5,5 +5,5 @@
 ]]></content>
 <tabTrigger>cdm</tabTrigger>
 <scope>source.js</scope>
-<description>Invoked once, only on the client (not on the server), immediately after the initial rendering occurs.</description>
+<description>componentDidMount</description>
 </snippet>

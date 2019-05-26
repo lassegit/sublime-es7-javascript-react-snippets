@@ -5,5 +5,5 @@
 ]]></content>
 <tabTrigger>test</tabTrigger>
 <scope>source.js</scope>
-<description>Testing `test` block</description>
+<description>testBlock</description>
 </snippet>

@@ -4,5 +4,5 @@
 ]),]]></content>
 <tabTrigger>ptet</tabTrigger>
 <scope>source.js</scope>
-<description>An object that could be one of many types</description>
+<description>propTypeOneOfType</description>
 </snippet>

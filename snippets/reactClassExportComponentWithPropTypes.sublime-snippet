@@ -1,8 +1,8 @@
 <snippet>
-<content><![CDATA[import React, { Component } from 'react'
+<content><![CDATA[import React from 'react'
 import PropTypes from 'prop-types'
 
-export class ${1:${TM_FILENAME/(\w+)\.js/\1/g}} extends Component {
+export class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}} extends React.Component {
   static propTypes = {
 
   }
@@ -16,9 +16,9 @@ export class ${1:${TM_FILENAME/(\w+)\.js/\1/g}} extends Component {
   }
 }
 
-export default ${1:${TM_FILENAME/(\w+)\.js/\1/g}}
+export default ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}}
 ]]></content>
 <tabTrigger>rcep</tabTrigger>
 <scope>source.js</scope>
-<description>Creates a React component class with ES7 module system</description>
+<description>reactClassExportComponentWithPropTypes</description>
 </snippet>

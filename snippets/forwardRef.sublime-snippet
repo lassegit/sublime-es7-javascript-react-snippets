@@ -3,5 +3,5 @@
 ]]></content>
 <tabTrigger>fref</tabTrigger>
 <scope>source.js</scope>
-<description>Forward ref statement used inside component</description>
+<description>forwardRef</description>
 </snippet>

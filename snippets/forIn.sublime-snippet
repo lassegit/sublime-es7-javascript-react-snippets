@@ -5,5 +5,5 @@
 ]]></content>
 <tabTrigger>fin</tabTrigger>
 <scope>source.js</scope>
-<description>Iterating over property values of iterable objects</description>
+<description>forIn</description>
 </snippet>

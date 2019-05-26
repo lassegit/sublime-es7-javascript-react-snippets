@@ -1,7 +1,7 @@
 <snippet>
 <content><![CDATA[import React from 'react'
 
-export default function ${1:${TM_FILENAME/(\w+)\.js/\1/g}}() {
+export default function ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}}() {
   return (
     <div>
       $0
@@ -11,5 +11,5 @@ export default function ${1:${TM_FILENAME/(\w+)\.js/\1/g}}() {
 ]]></content>
 <tabTrigger>rfc</tabTrigger>
 <scope>source.js</scope>
-<description>Creates a React Functional Component with ES7 module system</description>
+<description>reactFunctionalComponent</description>
 </snippet>

@@ -3,5 +3,5 @@
 ]]></content>
 <tabTrigger>cref</tabTrigger>
 <scope>source.js</scope>
-<description>Create ref statement used inside constructor</description>
+<description>createRef</description>
 </snippet>

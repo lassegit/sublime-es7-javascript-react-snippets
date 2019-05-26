@@ -2,5 +2,5 @@
 <content><![CDATA[PropTypes.object,]]></content>
 <tabTrigger>pto</tabTrigger>
 <scope>source.js</scope>
-<description>Object prop type</description>
+<description>propTypeObject</description>
 </snippet>

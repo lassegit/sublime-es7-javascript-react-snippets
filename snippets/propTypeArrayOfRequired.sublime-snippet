@@ -2,5 +2,5 @@
 <content><![CDATA[PropTypes.arrayOf($0).isRequired,]]></content>
 <tabTrigger>ptaor</tabTrigger>
 <scope>source.js</scope>
-<description>An array of a certain type required</description>
+<description>propTypeArrayOfRequired</description>
 </snippet>

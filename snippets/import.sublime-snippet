@@ -2,5 +2,5 @@
 <content><![CDATA[import ${2:moduleName} from '${1:module}'$0]]></content>
 <tabTrigger>imp</tabTrigger>
 <scope>source.js</scope>
-<description></description>
+<description>import</description>
 </snippet>

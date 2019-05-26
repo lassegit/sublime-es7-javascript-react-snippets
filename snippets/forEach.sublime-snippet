@@ -5,5 +5,5 @@
 ]]></content>
 <tabTrigger>fre</tabTrigger>
 <scope>source.js</scope>
-<description>Creates a forEach statement in ES7 syntax</description>
+<description>forEach</description>
 </snippet>

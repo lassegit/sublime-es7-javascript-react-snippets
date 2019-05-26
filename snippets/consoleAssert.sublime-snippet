@@ -2,5 +2,5 @@
 <content><![CDATA[console.assert(${1:expression}, ${2:object})]]></content>
 <tabTrigger>cas</tabTrigger>
 <scope>source.js</scope>
-<description>If the specified expression is false, the message is written to the console along with a stack trace</description>
+<description>consoleAssert</description>
 </snippet>

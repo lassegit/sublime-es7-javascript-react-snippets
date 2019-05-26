@@ -2,7 +2,7 @@
 <content><![CDATA[import React, { memo } from 'react'
 import PropTypes from 'prop-types'
 
-const ${1:${TM_FILENAME/(\w+)\.js/\1/g}} = memo(function ${1:${TM_FILENAME/(\w+)\.js/\1/g}}(props) {
+const ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}} = memo(function ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}}(props) {
   return (
     <div>
       $0
@@ -10,13 +10,13 @@ const ${1:${TM_FILENAME/(\w+)\.js/\1/g}} = memo(function ${1:${TM_FILENAME/(\w+)
   )
 })
 
-${1:${TM_FILENAME/(\w+)\.js/\1/g}}.propTypes = {
+${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}}.propTypes = {
 
 }
 
-export default ${1:${TM_FILENAME/(\w+)\.js/\1/g}}
+export default ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}}
 ]]></content>
 <tabTrigger>rmcp</tabTrigger>
 <scope>source.js</scope>
-<description>Creates a React Memo Function Component with ES7 module system with PropTypes</description>
+<description>reactFunctionMemoComponentWithPropTypes</description>
 </snippet>

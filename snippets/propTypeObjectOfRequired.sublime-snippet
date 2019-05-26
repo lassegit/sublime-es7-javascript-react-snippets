@@ -2,5 +2,5 @@
 <content><![CDATA[PropTypes.objectOf($0).isRequired,]]></content>
 <tabTrigger>ptoor</tabTrigger>
 <scope>source.js</scope>
-<description>An object with property values of a certain type required</description>
+<description>propTypeObjectOfRequired</description>
 </snippet>

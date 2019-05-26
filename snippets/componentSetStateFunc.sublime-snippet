@@ -3,5 +3,5 @@
 ]]></content>
 <tabTrigger>ssf</tabTrigger>
 <scope>source.js</scope>
-<description>Performs a shallow merge of nextState into current state</description>
+<description>componentSetStateFunc</description>
 </snippet>

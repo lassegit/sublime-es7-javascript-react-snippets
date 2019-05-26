@@ -5,5 +5,5 @@
 ]]></content>
 <tabTrigger>sto</tabTrigger>
 <scope>source.js</scope>
-<description>Executes the given function after the specified delay in ES7 syntax</description>
+<description>setTimeOut</description>
 </snippet>

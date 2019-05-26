@@ -2,5 +2,5 @@
 <content><![CDATA[console.count(${1:label})]]></content>
 <tabTrigger>cco</tabTrigger>
 <scope>source.js</scope>
-<description>Writes the the number of times that count() has been invoked at the same line and with the same label</description>
+<description>consoleCount</description>
 </snippet>

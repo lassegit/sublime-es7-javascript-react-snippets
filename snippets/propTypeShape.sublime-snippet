@@ -4,5 +4,5 @@
 }),]]></content>
 <tabTrigger>ptsh</tabTrigger>
 <scope>source.js</scope>
-<description>An object taking on a particular shape</description>
+<description>propTypeShape</description>
 </snippet>

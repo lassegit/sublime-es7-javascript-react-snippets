@@ -2,5 +2,5 @@
 <content><![CDATA[PropTypes.bool,]]></content>
 <tabTrigger>ptb</tabTrigger>
 <scope>source.js</scope>
-<description>Bool prop type</description>
+<description>propTypeBool</description>
 </snippet>

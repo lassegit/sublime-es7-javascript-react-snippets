@@ -3,5 +3,5 @@
 ]]></content>
 <tabTrigger>impt</tabTrigger>
 <scope>source.js</scope>
-<description></description>
+<description>import PropTypes</description>
 </snippet>

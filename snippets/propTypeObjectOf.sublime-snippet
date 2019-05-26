@@ -2,5 +2,5 @@
 <content><![CDATA[PropTypes.objectOf($0),]]></content>
 <tabTrigger>ptoo</tabTrigger>
 <scope>source.js</scope>
-<description>An object with property values of a certain type</description>
+<description>propTypeObjectOf</description>
 </snippet>

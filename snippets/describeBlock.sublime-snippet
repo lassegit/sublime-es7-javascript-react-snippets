@@ -5,5 +5,5 @@
 ]]></content>
 <tabTrigger>desc</tabTrigger>
 <scope>source.js</scope>
-<description>Testing `describe` block</description>
+<description>describeBlock</description>
 </snippet>

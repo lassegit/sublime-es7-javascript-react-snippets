@@ -2,5 +2,5 @@
 <content><![CDATA[useDebugValue(${1:value})]]></content>
 <tabTrigger>useDebugValue</tabTrigger>
 <scope>source.js</scope>
-<description></description>
+<description>useDebugValue</description>
 </snippet>

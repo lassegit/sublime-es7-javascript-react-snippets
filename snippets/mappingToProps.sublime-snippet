@@ -9,5 +9,5 @@ const mapDispatchToProps = {
 ]]></content>
 <tabTrigger>reduxmap</tabTrigger>
 <scope>source.js</scope>
-<description></description>
+<description>mappingToProps</description>
 </snippet>

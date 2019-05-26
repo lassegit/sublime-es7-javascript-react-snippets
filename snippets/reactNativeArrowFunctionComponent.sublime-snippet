@@ -2,7 +2,7 @@
 <content><![CDATA[import React from 'react'
 import { View, Text } from 'react-native'
 
-const ${1:${TM_FILENAME/(\w+)\.js/\1/g}} = () => {
+const ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}} = () => {
   return (
     <View>
       <Text>$0</Text>
@@ -10,9 +10,9 @@ const ${1:${TM_FILENAME/(\w+)\.js/\1/g}} = () => {
   )
 }
 
-export default ${1:${TM_FILENAME/(\w+)\.js/\1/g}}
+export default ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}}
 ]]></content>
 <tabTrigger>rnf</tabTrigger>
 <scope>source.js</scope>
-<description></description>
+<description>reactNativeArrowFunctionComponent</description>
 </snippet>

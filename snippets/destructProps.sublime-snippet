@@ -2,5 +2,5 @@
 <content><![CDATA[const { $1 } = this.props]]></content>
 <tabTrigger>cp</tabTrigger>
 <scope>source.js</scope>
-<description>Creates and assigns a local variable using props destructing</description>
+<description>destructProps</description>
 </snippet>

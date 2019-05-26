@@ -9,5 +9,5 @@
 ]]></content>
 <tabTrigger>rconst</tabTrigger>
 <scope>source.js</scope>
-<description>Adds a default constructor for it('', () => {})the class that contains props as arguments</description>
+<description>classConstructor</description>
 </snippet>

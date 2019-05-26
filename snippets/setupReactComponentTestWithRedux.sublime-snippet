@@ -4,13 +4,13 @@ import renderer from 'react-test-renderer'
 import { Provider } from 'react-redux'
 
 import store from 'src/store'
-import { ${1:${TM_FILENAME/(\w+)\.js/\1/g}} } from '../${1:${TM_FILENAME/(\w+)\.js/\1/g}}'
+import { ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}} } from '../${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}}'
 
-describe('<${1:${TM_FILENAME/(\w+)\.js/\1/g}} />', () => {
+describe('<${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}} />', () => {
   const defaultProps = {}
   const wrapper = renderer.create(
     <Provider store={store}>
-     <${1:${TM_FILENAME/(\w+)\.js/\1/g}} {...defaultProps} />
+     <${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}} {...defaultProps} />
     </Provider>,
   )
 
@@ -21,5 +21,5 @@ describe('<${1:${TM_FILENAME/(\w+)\.js/\1/g}} />', () => {
 ]]></content>
 <tabTrigger>srtest</tabTrigger>
 <scope>source.js</scope>
-<description>Create test component</description>
+<description>setupReactComponentTestWithRedux</description>
 </snippet>
