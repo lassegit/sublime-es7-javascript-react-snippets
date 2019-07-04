@@ -8,9 +8,11 @@ The are in total 148
 
 ## Installation
 
-Open the terminal and run: `git clone --depth 1 https://github.com/lassegit/sublime-es7-javascript-react-snippets ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/sublime-es7-javascript-react-snippets`
+Install via Package Control.
 
-(Until it arrived in Sublime Package Control).
+- Open the Command Palette via `Ctrl/⌘+Shift+p`
+- Select Package Control: Install Package
+- Search for 'Sublime ES7 React/Redux/React-Native/JS snippets' and press ↲ Enter
 
 ## Snippet information copy/pasted from: ["VS Code ES7 React/Redux/React-Native/JS snippets"](https://github.com/dsznajder/vscode-es7-javascript-react-snippets)
 
