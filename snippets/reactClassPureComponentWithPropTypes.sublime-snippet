@@ -2,7 +2,7 @@
 <content><![CDATA[import React from 'react'
 import PropTypes from 'prop-types'
 
-export default class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}} extends PureComponent {
+export default class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}} extends React.PureComponent {
 	static propTypes = {
 
 	}

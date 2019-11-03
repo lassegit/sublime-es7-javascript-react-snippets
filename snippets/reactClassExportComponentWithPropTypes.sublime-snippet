@@ -2,7 +2,7 @@
 <content><![CDATA[import React from 'react'
 import PropTypes from 'prop-types'
 
-export class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}} extends Component {
+export class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}} extends React.Component {
 	static propTypes = {
 
 	}

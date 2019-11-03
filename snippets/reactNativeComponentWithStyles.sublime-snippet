@@ -2,7 +2,7 @@
 <content><![CDATA[import React from 'react'
 import { Text, StyleSheet, View } from 'react-native'
 
-export default class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}} extends Component {
+export default class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}} extends React.Component {
 	render() {
 		return (
 			<View>

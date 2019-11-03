@@ -11,8 +11,8 @@ const parseSnippet = text => {
     .replace('TM_FILENAME_BASE', 'TM_FILENAME/(.+)\\..+|.*/$1/:name')
     .replace(', { Component }', '') // Avoid importing Component and PureComponent separately
     .replace(', { PureComponent }', '')
-    .replace('extends Component', 'extends Component')
-    .replace('extends PureComponent', 'extends PureComponent')
+    .replace('extends Component', 'extends React.Component')
+    .replace('extends PureComponent', 'extends React.PureComponent')
     .replace(
       'const [${1:state}, set${1/(.*)/${1:/capitalize}/}] = useState(${2:initialState})',
       'const [${1:state}, set${2:State}] = useState(${3:initialState})',

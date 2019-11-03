@@ -1,7 +1,7 @@
 <snippet>
 <content><![CDATA[import React from 'react'
 
-export class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}} extends PureComponent {
+export class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}} extends React.PureComponent {
 	render() {
 		return (
 			<div>
