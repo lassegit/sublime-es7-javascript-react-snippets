@@ -1,6 +1,6 @@
 {
   "name": "sublime-es7-javascript-react-snippets",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Extension for Javascript/React snippets with search supporting ES7 and babel features",
   "main": "src/index.js",
   "scripts": {
