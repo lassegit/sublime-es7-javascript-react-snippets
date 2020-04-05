@@ -1,6 +1,6 @@
 <snippet>
 <content><![CDATA[const [${1:state}, set${2:State}] = useState(${3:initialState})]]></content>
 <tabTrigger>useState</tabTrigger>
-<scope>source.js</scope>
+<scope>source.js,source.ts</scope>
 <description>useState</description>
 </snippet>

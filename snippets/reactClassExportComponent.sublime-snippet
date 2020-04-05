@@ -14,6 +14,6 @@ export class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}} extends React.Component {
 export default ${1:${TM_FILENAME_BASE}}
 ]]></content>
 <tabTrigger>rce</tabTrigger>
-<scope>source.js</scope>
+<scope>source.js,source.ts</scope>
 <description>reactClassExportComponent</description>
 </snippet>

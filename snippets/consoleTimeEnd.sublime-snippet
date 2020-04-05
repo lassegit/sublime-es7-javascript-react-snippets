@@ -1,6 +1,6 @@
 <snippet>
 <content><![CDATA[console.timeEnd('${1:object}')]]></content>
 <tabTrigger>cte</tabTrigger>
-<scope>source.js</scope>
+<scope>source.js,source.ts</scope>
 <description>consoleTimeEnd</description>
 </snippet>

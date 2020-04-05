@@ -23,6 +23,6 @@ export const ${1:hocComponentName} = (WrappedComponent) => {
 export default WrapperComponent => connect(mapStateToProps, mapDispatchToProps)(${1:hocComponentName}(WrapperComponent))
 ]]></content>
 <tabTrigger>hocredux</tabTrigger>
-<scope>source.js</scope>
+<scope>source.js,source.ts</scope>
 <description>hocComponentWithRedux</description>
 </snippet>

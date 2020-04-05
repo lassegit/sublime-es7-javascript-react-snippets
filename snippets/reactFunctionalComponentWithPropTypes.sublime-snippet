@@ -18,6 +18,6 @@ export default ${1:${TM_FILENAME_BASE}}
 
 ]]></content>
 <tabTrigger>rfcp</tabTrigger>
-<scope>source.js</scope>
+<scope>source.js,source.ts</scope>
 <description>reactFunctionalComponentWithPropTypes</description>
 </snippet>

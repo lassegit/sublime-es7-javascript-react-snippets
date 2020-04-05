@@ -4,6 +4,6 @@
 }
 ]]></content>
 <tabTrigger>cdm</tabTrigger>
-<scope>source.js</scope>
+<scope>source.js,source.ts</scope>
 <description>componentDidMount</description>
 </snippet>

@@ -4,6 +4,6 @@
 })
 ]]></content>
 <tabTrigger>rnstyle</tabTrigger>
-<scope>source.js</scope>
+<scope>source.js,source.ts</scope>
 <description>reactNativeStyles</description>
 </snippet>

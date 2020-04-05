@@ -12,6 +12,6 @@ function ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}}() {
 export default ${1:${TM_FILENAME_BASE}}
 ]]></content>
 <tabTrigger>rfce</tabTrigger>
-<scope>source.js</scope>
+<scope>source.js,source.ts</scope>
 <description>reactFunctionalExportComponent</description>
 </snippet>

@@ -4,6 +4,6 @@
 }
 ]]></content>
 <tabTrigger>anfn</tabTrigger>
-<scope>source.js</scope>
+<scope>source.js,source.ts</scope>
 <description>anonymousFunction</description>
 </snippet>

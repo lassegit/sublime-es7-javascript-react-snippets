@@ -12,6 +12,6 @@ export default (WrappedComponent) => {
 }
 ]]></content>
 <tabTrigger>hoc</tabTrigger>
-<scope>source.js</scope>
+<scope>source.js,source.ts</scope>
 <description>hocComponent</description>
 </snippet>

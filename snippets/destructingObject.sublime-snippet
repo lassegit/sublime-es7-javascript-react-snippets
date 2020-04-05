@@ -1,6 +1,6 @@
 <snippet>
 <content><![CDATA[const {${1:propertyName}} = ${2:objectToDestruct}]]></content>
 <tabTrigger>dob</tabTrigger>
-<scope>source.js</scope>
+<scope>source.js,source.ts</scope>
 <description>destructingObject</description>
 </snippet>

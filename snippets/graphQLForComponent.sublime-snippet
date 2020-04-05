@@ -2,6 +2,6 @@
 <content><![CDATA[import { compose, graphql } from 'react-apollo'
 ]]></content>
 <tabTrigger>graphql</tabTrigger>
-<scope>source.js</scope>
+<scope>source.js,source.ts</scope>
 <description>graphQLForComponent</description>
 </snippet>

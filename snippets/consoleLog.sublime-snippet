@@ -1,6 +1,6 @@
 <snippet>
 <content><![CDATA[console.log(${1:object})]]></content>
 <tabTrigger>clg</tabTrigger>
-<scope>source.js</scope>
+<scope>source.js,source.ts</scope>
 <description>consoleLog</description>
 </snippet>

@@ -3,6 +3,6 @@
 	${1}
 }]]></content>
 <tabTrigger>gdsfp</tabTrigger>
-<scope>source.js</scope>
+<scope>source.js,source.ts</scope>
 <description>getDerivedStateFromProps</description>
 </snippet>

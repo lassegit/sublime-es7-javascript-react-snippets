@@ -20,6 +20,6 @@ describe('<${1:${TM_FILENAME_BASE}} />', () => {
 })
 ]]></content>
 <tabTrigger>srtest</tabTrigger>
-<scope>source.js</scope>
+<scope>source.js,source.ts</scope>
 <description>setupReactComponentTestWithRedux</description>
 </snippet>

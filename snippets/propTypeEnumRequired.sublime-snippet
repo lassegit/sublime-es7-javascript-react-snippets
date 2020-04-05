@@ -1,6 +1,6 @@
 <snippet>
 <content><![CDATA[PropTypes.oneOf(['$0']).isRequired,]]></content>
 <tabTrigger>pter</tabTrigger>
-<scope>source.js</scope>
+<scope>source.js,source.ts</scope>
 <description>propTypeEnumRequired</description>
 </snippet>

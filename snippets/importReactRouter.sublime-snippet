@@ -2,6 +2,6 @@
 <content><![CDATA[import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 ]]></content>
 <tabTrigger>imrr</tabTrigger>
-<scope>source.js</scope>
+<scope>source.js,source.ts</scope>
 <description>import React Router</description>
 </snippet>

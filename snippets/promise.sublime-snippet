@@ -4,6 +4,6 @@
 })
 ]]></content>
 <tabTrigger>prom</tabTrigger>
-<scope>source.js</scope>
+<scope>source.js,source.ts</scope>
 <description>promise</description>
 </snippet>

@@ -12,6 +12,6 @@ export default class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}} extends React.Pure
 }
 ]]></content>
 <tabTrigger>rpc</tabTrigger>
-<scope>source.js</scope>
+<scope>source.js,source.ts</scope>
 <description>reactClassPureComponent</description>
 </snippet>

@@ -2,6 +2,6 @@
 <content><![CDATA[const ${1:contextName} = React.createContext()
 ]]></content>
 <tabTrigger>rcontext</tabTrigger>
-<scope>source.js</scope>
+<scope>source.js,source.ts</scope>
 <description>createContext</description>
 </snippet>

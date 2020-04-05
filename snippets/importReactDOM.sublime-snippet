@@ -2,6 +2,6 @@
 <content><![CDATA[import ReactDOM from 'react-dom'
 ]]></content>
 <tabTrigger>imrd</tabTrigger>
-<scope>source.js</scope>
+<scope>source.js,source.ts</scope>
 <description>import ReactDOM</description>
 </snippet>

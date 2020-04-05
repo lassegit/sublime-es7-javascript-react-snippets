@@ -29,6 +29,6 @@ const mapDispatchToProps = {
 export default connect(mapStateToProps, mapDispatchToProps)(${1:${TM_FILENAME_BASE}})
 ]]></content>
 <tabTrigger>rncredux</tabTrigger>
-<scope>source.js</scope>
+<scope>source.js,source.ts</scope>
 <description>reactNativeClassComponentRedux</description>
 </snippet>

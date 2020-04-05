@@ -4,6 +4,6 @@
 }
 ]]></content>
 <tabTrigger>pge</tabTrigger>
-<scope>source.js</scope>
+<scope>source.js,source.ts</scope>
 <description>propertyGet</description>
 </snippet>

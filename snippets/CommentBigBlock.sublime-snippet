@@ -5,6 +5,6 @@
 |--------------------------------------------------
 */]]></content>
 <tabTrigger>cmmb</tabTrigger>
-<scope>source.js</scope>
+<scope>source.js,source.ts</scope>
 <description>Comment Big Block</description>
 </snippet>

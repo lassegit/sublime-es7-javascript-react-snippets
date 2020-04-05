@@ -1,6 +1,6 @@
 <snippet>
 <content><![CDATA[const [${1:propertyName}] = ${2:arrayToDestruct}]]></content>
 <tabTrigger>dar</tabTrigger>
-<scope>source.js</scope>
+<scope>source.js,source.ts</scope>
 <description>destructingArray</description>
 </snippet>

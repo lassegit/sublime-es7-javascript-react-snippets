@@ -1,6 +1,6 @@
 <snippet>
 <content><![CDATA[PropTypes.func.isRequired,]]></content>
 <tabTrigger>ptfr</tabTrigger>
-<scope>source.js</scope>
+<scope>source.js,source.ts</scope>
 <description>propTypeFuncRequired</description>
 </snippet>

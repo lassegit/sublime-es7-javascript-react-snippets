@@ -3,6 +3,6 @@
 import PropTypes from 'prop-types'
 ]]></content>
 <tabTrigger>imrpcp</tabTrigger>
-<scope>source.js</scope>
+<scope>source.js,source.ts</scope>
 <description>import React & PropTypes</description>
 </snippet>

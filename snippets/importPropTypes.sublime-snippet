@@ -2,6 +2,6 @@
 <content><![CDATA[import PropTypes from 'prop-types'
 ]]></content>
 <tabTrigger>impt</tabTrigger>
-<scope>source.js</scope>
+<scope>source.js,source.ts</scope>
 <description>import PropTypes</description>
 </snippet>

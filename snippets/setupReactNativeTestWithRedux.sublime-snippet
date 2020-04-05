@@ -21,6 +21,6 @@ describe('<${1:${TM_FILENAME_BASE}} />', () => {
 })
 ]]></content>
 <tabTrigger>snrtest</tabTrigger>
-<scope>source.js</scope>
+<scope>source.js,source.ts</scope>
 <description>setupReactNativeTestWithRedux</description>
 </snippet>

@@ -4,6 +4,6 @@
 })
 ]]></content>
 <tabTrigger>fre</tabTrigger>
-<scope>source.js</scope>
+<scope>source.js,source.ts</scope>
 <description>forEach</description>
 </snippet>

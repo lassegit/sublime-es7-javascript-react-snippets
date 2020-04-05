@@ -8,6 +8,6 @@ const mapDispatchToProps = {
 }
 ]]></content>
 <tabTrigger>reduxmap</tabTrigger>
-<scope>source.js</scope>
+<scope>source.js,source.ts</scope>
 <description>mappingToProps</description>
 </snippet>

@@ -10,6 +10,6 @@ export default memo(function ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}}() {
 })
 ]]></content>
 <tabTrigger>rmc</tabTrigger>
-<scope>source.js</scope>
+<scope>source.js,source.ts</scope>
 <description>reactFunctionMemoComponent</description>
 </snippet>

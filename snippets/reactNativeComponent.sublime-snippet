@@ -13,6 +13,6 @@ export default class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}} extends React.Comp
 }
 ]]></content>
 <tabTrigger>rnc</tabTrigger>
-<scope>source.js</scope>
+<scope>source.js,source.ts</scope>
 <description>reactNativeComponent</description>
 </snippet>

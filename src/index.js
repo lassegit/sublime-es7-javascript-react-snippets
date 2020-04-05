@@ -48,7 +48,7 @@ const getTabTrigger = prefix => `<tabTrigger>${prefix}</tabTrigger>`;
 /**
  * Get the scope field (defaults to scoure.js)
  */
-const getScope = () => `<scope>source.js</scope>`;
+const getScope = () => `<scope>source.js,source.ts</scope>`;
 
 /**
  * Get the description field

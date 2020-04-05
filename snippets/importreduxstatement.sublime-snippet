@@ -2,6 +2,6 @@
 <content><![CDATA[import { connect } from 'react-redux'
 ]]></content>
 <tabTrigger>redux</tabTrigger>
-<scope>source.js</scope>
+<scope>source.js,source.ts</scope>
 <description>import redux statement</description>
 </snippet>

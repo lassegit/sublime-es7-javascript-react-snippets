@@ -4,6 +4,6 @@
 }
 ]]></content>
 <tabTrigger>cwm</tabTrigger>
-<scope>source.js</scope>
+<scope>source.js,source.ts</scope>
 <description>componentWillMount</description>
 </snippet>

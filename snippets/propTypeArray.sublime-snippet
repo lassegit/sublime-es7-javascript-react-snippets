@@ -1,6 +1,6 @@
 <snippet>
 <content><![CDATA[PropTypes.array,]]></content>
 <tabTrigger>pta</tabTrigger>
-<scope>source.js</scope>
+<scope>source.js,source.ts</scope>
 <description>propTypeArray</description>
 </snippet>

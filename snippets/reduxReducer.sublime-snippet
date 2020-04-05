@@ -15,6 +15,6 @@ export default (state = initialState, { type, payload }) => {
 }
 ]]></content>
 <tabTrigger>rxreducer</tabTrigger>
-<scope>source.js</scope>
+<scope>source.js,source.ts</scope>
 <description>reduxReducer</description>
 </snippet>

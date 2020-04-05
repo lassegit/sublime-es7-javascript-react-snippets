@@ -15,6 +15,6 @@ describe('<${1:${TM_FILENAME_BASE}} />', () => {
 })
 ]]></content>
 <tabTrigger>sntest</tabTrigger>
-<scope>source.js</scope>
+<scope>source.js,source.ts</scope>
 <description>setupReactNativeTest</description>
 </snippet>

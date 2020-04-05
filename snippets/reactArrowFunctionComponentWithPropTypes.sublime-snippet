@@ -17,6 +17,6 @@ ${1:${TM_FILENAME_BASE}}.propTypes = {
 export default ${1:${TM_FILENAME_BASE}}
 ]]></content>
 <tabTrigger>rafcp</tabTrigger>
-<scope>source.js</scope>
+<scope>source.js,source.ts</scope>
 <description>reactArrowFunctionComponentWithPropTypes</description>
 </snippet>

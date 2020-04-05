@@ -1,6 +1,6 @@
 <snippet>
 <content><![CDATA[const ${1:context} = useContext(${2:contextValue})]]></content>
 <tabTrigger>useContext</tabTrigger>
-<scope>source.js</scope>
+<scope>source.js,source.ts</scope>
 <description>useContext</description>
 </snippet>

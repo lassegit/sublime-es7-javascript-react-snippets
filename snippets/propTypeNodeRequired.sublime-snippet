@@ -1,6 +1,6 @@
 <snippet>
 <content><![CDATA[PropTypes.node.isRequired,]]></content>
 <tabTrigger>ptndr</tabTrigger>
-<scope>source.js</scope>
+<scope>source.js,source.ts</scope>
 <description>propTypeNodeRequired</description>
 </snippet>

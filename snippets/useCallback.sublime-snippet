@@ -6,6 +6,6 @@
 	[${2:input}],
 )]]></content>
 <tabTrigger>useCallback</tabTrigger>
-<scope>source.js</scope>
+<scope>source.js,source.ts</scope>
 <description>useCallback</description>
 </snippet>
