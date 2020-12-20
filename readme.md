@@ -1,6 +1,6 @@
-# Sublime ES7 React/Redux/React-Native/JS snippets
+# Sublime ES7 React/Redux/React-Native/JS snippets (for JS and TS)
 
-This Sublime extension ports the excellent and popular snippets collection from the **["VS Code ES7 React/Redux/React-Native/JS snippets"](https://github.com/dsznajder/vscode-es7-javascript-react-snippets)** to Sublime. The snippets from the VS Code extension are located in `scr/snippets.json`, the script that converts the snippets to Sublime snippet format is in `src/index.js` and the finished Sublime snippets are in `snippets/` folder.
+This Sublime extension ports the excellent and popular snippets collection from the **["VS Code ES7 React/Redux/React-Native/JS snippets"](https://github.com/dsznajder/vscode-es7-javascript-react-snippets)** to Sublime. The snippets from the VS Code extension are located in `scr/snippets.json`, the script that converts the snippets to Sublime snippet format is in `src/index.js` and the finished Sublime snippets are in `snippets/` folder. Snippets work for both typescript and javascript.
 
 Also note, all `{ PureComponent }` or `{ Component }` have been replaced with `...extends React.PureComponent` or `...extends React.Component`.
 
