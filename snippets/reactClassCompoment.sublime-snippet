@@ -12,6 +12,6 @@ export default class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}} extends React.Comp
 }
 ]]></content>
 <tabTrigger>rcc</tabTrigger>
-<scope>source.js,source.ts</scope>
+<scope>source.js,source.jsx,source.ts,source.tsx</scope>
 <description>reactClassCompoment</description>
 </snippet>

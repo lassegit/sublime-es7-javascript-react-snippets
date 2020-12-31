@@ -1,6 +1,6 @@
 <snippet>
 <content><![CDATA[PropTypes.element.isRequired,]]></content>
 <tabTrigger>ptelr</tabTrigger>
-<scope>source.js,source.ts</scope>
+<scope>source.js,source.jsx,source.ts,source.tsx</scope>
 <description>propTypeElementRequired</description>
 </snippet>

@@ -3,6 +3,6 @@
 	graphql(${1:queryOrMutation}, { name: ${2:name} }),
 )(${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}})]]></content>
 <tabTrigger>expgql</tabTrigger>
-<scope>source.js,source.ts</scope>
+<scope>source.js,source.jsx,source.ts,source.tsx</scope>
 <description>exportGraphQL</description>
 </snippet>

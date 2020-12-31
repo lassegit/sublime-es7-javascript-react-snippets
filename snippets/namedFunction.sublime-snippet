@@ -4,6 +4,6 @@
 }
 ]]></content>
 <tabTrigger>nfn</tabTrigger>
-<scope>source.js,source.ts</scope>
+<scope>source.js,source.jsx,source.ts,source.tsx</scope>
 <description>namedFunction</description>
 </snippet>
